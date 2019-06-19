@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Automation test report</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { white-space: pre-wrap;word-wrap: break-word; }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    /* width: 500px;*/
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 99%;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #74A474; }
+.failClass  { background-color: #FDD283; }
+.errorClass { background-color: #FF6600; }
+.passCase   { color: #6c6; }
+.failCase   { color: #FF6600; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+#div_base {
+            position:absolute;
+            top:0%;
+            left:5%;
+            right:5%;
+            width: auto;
+            height: auto;
+            margin: -15px 0 0 0;
+}
+</style>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div id="div_base">
+
+<div class='page-header'>
+<h1>Automation test report</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-09-14 14:29:35</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:00.083874</p>
+<p class='attribute'><strong>状态:</strong> 通过 1</p>
+
+</div>
+<p class='description'>This is a full regression test report of personas</p>
+
+
+
+<div class="btn-group btn-group-sm">
+<button class="btn btn-default" onclick='javascript:showCase(0)'>总结</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+</div>
+<p></p>
+<table id='result_table' class="table table-bordered">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='passClass'>
+    <td>project.personas.test_cases.test_positive.TestGetConfig</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_get_config</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: b'{"dimensions":[{"filters_list":[{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe6\xb3\xa8\xe5\x86\x8c\xe6\x97\xb6\xe7\x9a\x84\xe5\x9f\x8e\xe5\xb8\x82\xef\xbc\x8c\xe5\x8f\xaf\xe5\xa4\x9a\xe9\x80\x89","filter_id":"userprofile.city","options":[{"option_id":"FILTER..city..IN.INT32.VALUE_LIST_MULTIPLE","title":"\xe5\x8c\x85\xe5\x90\xab","type":"content"},{"option_id":"FILTER..city..NOT_IN.INT32.VALUE_LIST_MULTIPLE","title":"\xe4\xb8\x8d\xe5\x8c\x85\xe5\x90\xab","type":"content"}],"title":"\xe6\xb3\xa8\xe5\x86\x8c\xe5\x9f\x8e\xe5\xb8\x82","values":[{"list":[{"list_id":"11001","title":"\xe5\x8c\x97\xe4\xba\xac\xe5\xb8\x82"},{"list_id":"19001","title":"\xe4\xb8\x8a\xe6\xb5\xb7\xe5\xb8\x82"},{"list_id":"33001","title":"\xe6\x88\x90\xe9\x83\xbd\xe5\xb8\x82"}],"type":"list_multiple","value_id":"value.city.LIST_MULTIPLE"}]},{"comments":"\xe7\xab\x9e\xe5\x93\x81APP\xe5\xae\x89\xe8\xa3\x85\xe6\x83\x85\xe5\x86\xb5,\xe5\x8f\xaf\xe5\xa4\x9a\xe9\x80\x89","filter_id":"userprofile.competitor","options":[{"option_id":"FILTER..competitor..IN.INT32.VALUE_LIST_MULTIPLE","title":"\xe5\x8c\x85\xe5\x90\xab","type":"content"},{"option_id":"FILTER..competitor..NOT_IN.INT32.VALUE_LIST_MULTIPLE","title":"\xe4\xb8\x8d\xe5\x8c\x85\xe5\x90\xab","type":"content"}],"title":"\xe7\xab\x9e\xe5\x93\x81\xe5\xb1\x9e\xe6\x80\xa7","values":[{"list":[{"list_id":"001","title":"\xe6\x91\xa9\xe6\x8b\x9c"},{"list_id":"002","title":"\xe5\xb0\x8f\xe8\x93\x9d"}],"type":"list_multiple","value_id":"value.competitor.LIST_MULTIPLE"}]},{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe6\x98\xaf\xe5\x90\xa6\xe4\xb8\xba\xe5\xad\xa6\xe7\x94\x9f","filter_id":"userprofile.oauth","options":[{"option_id":"FILTER..oauth..EQUAL_TO.INT32.OPTION_PARA.1","title":"\xe6\x98\xaf","type":"content"},{"option_id":"FILTER..oauth..NOT_EQUAL_TO.INT32.OPTION_PARA.1","title":"\xe5\x90\xa6","type":"content"}],"title":"\xe6\x98\xaf\xe5\x90\xa6\xe5\xad\xa6\xe7\x94\x9f","values":[]},{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe6\x98\xaf\xe5\x90\xa6\xe6\x9c\x89\xe6\x8a\xbc\xe9\x87\x91","filter_id":"userprofile.bond","options":[{"option_id":"FILTER..bond..EQUAL_TO.INT32.OPTION_PARA.1","title":"\xe6\x98\xaf","type":"content"},{"option_id":"FILTER..bond..EQUAL_TO.INT32.OPTION_PARA.0","title":"\xe5\x90\xa6","type":"content"}],"title":"\xe6\x98\xaf\xe5\x90\xa6\xe6\x9c\x89\xe6\x8a\xbc\xe9\x87\x91","values":[]},{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe6\x98\xaf\xe5\x90\xa6\xe5\x85\x85\xe5\x80\xbc","filter_id":"userprofile.recharge","options":[{"option_id":"FILTER..recharge..EQUAL_TO.INT32.OPTION_PARA.1","title":"\xe6\x98\xaf","type":"content"},{"option_id":"FILTER..recharge..EQUAL_TO.INT32.OPTION_PARA.0","title":"\xe5\x90\xa6","type":"content"}],"title":"\xe6\x98\xaf\xe5\x90\xa6\xe5\x85\x85\xe5\x80\xbc","values":[]},{"comments":"\xe6\x98\xaf\xe4\xb8\xbaIOS\xef\xbc\x8c\xe5\x90\xa6\xe4\xb8\xbaANDROID\xef\xbc\x89","filter_id":"userprofile.device","options":[{"option_id":"FILTER..device..EQUAL_TO.INT32.OPTION_PARA.1","title":"\xe6\x98\xaf","type":"content"},{"option_id":"FILTER..device..EQUAL_TO.INT32.OPTION_PARA.2","title":"\xe5\x90\xa6","type":"content"}],"title":"\xe8\xae\xbe\xe5\xa4\x87\xe7\xb1\xbb\xe5\x9e\x8b","values":[]},{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe6\xb3\xa8\xe5\x86\x8c\xe7\x9a\x84\xe6\x97\xb6\xe9\x97\xb4\xef\xbc\x8c\xe5\x8f\xaf\xe9\x80\x89\xe6\x8b\xa9\xe6\x97\xb6\xe9\x97\xb4\xe6\xae\xb5","filter_id":"userprofile.reg_time","options":[{"option_id":"FILTER..reg_time..GREATER_EQUAL.DATE.OPTION_PARA.DATE_NOW-7D","title":"\xe6\x9c\x80\xe8\xbf\x917\xe5\xa4\xa9","type":"content"},{"option_id":"FILTER..reg_time..GREATER_EQUAL.DATE.OPTION_PARA.DATE_NOW-14D","title":"\xe6\x9c\x80\xe8\xbf\x9114\xe5\xa4\xa9","type":"content"},{"option_id":"FILTER..reg_time..GREATER_EQUAL.DATE.OPTION_PARA.DATE_NOW-30D","title":"\xe6\x9c\x80\xe8\xbf\x9130\xe5\xa4\xa9","type":"content"},{"option_id":"FILTER..reg_time..BETWEEN.DATE.TIME_RANGE","title":"\xe8\x87\xaa\xe5\xae\x9a\xe4\xb9\x89","type":"time_range"}],"title":"\xe6\xb3\xa8\xe5\x86\x8c\xe6\x97\xb6\xe9\x97\xb4","values":[]},{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe8\xae\xa4\xe8\xaf\x81\xe7\x9a\x84\xe6\x97\xb6\xe9\x97\xb4\xef\xbc\x8c\xe5\x8f\xaf\xe9\x80\x89\xe6\x8b\xa9\xe6\x97\xb6\xe9\x97\xb4\xe6\xae\xb5","filter_id":"userprofile.auth_time","options":[{"option_id":"FILTER..auth_time..GREATER_EQUAL.DATE.OPTION_PARA.DATE_NOW-7D","title":"\xe6\x9c\x80\xe8\xbf\x917\xe5\xa4\xa9","type":"content"},{"option_id":"FILTER..auth_time..GREATER_EQUAL.DATE.OPTION_PARA.DATE_NOW-14D","title":"\xe6\x9c\x80\xe8\xbf\x9114\xe5\xa4\xa9","type":"content"},{"option_id":"FILTER..auth_time..GREATER_EQUAL.DATE.OPTION_PARA.DATE_NOW-30D","title":"\xe6\x9c\x80\xe8\xbf\x9130\xe5\xa4\xa9","type":"content"},{"option_id":"FILTER..auth_time..BETWEEN.DATE.TIME_RANGE","title":"\xe8\x87\xaa\xe5\xae\x9a\xe4\xb9\x89","type":"time_range"}],"title":"\xe8\xae\xa4\xe8\xaf\x81\xe6\x97\xb6\xe9\x97\xb4","values":[]},{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe9\xa6\x96\xe5\x8d\x95\xe7\x9a\x84\xe6\x97\xb6\xe9\x97\xb4\xef\xbc\x8c\xe5\x8f\xaf\xe9\x80\x89\xe6\x8b\xa9\xe6\x97\xb6\xe9\x97\xb4\xe6\xae\xb5","filter_id":"userprofile.first_order_time","options":[{"option_id":"FILTER..first_order_time..GREATER_EQUAL.DATE.OPTION_PARA.DATE_NOW-7D","title":"\xe6\x9c\x80\xe8\xbf\x917\xe5\xa4\xa9","type":"content"},{"option_id":"FILTER..first_order_time..GREATER_EQUAL.DATE.OPTION_PARA.DATE_NOW-14D","title":"\xe6\x9c\x80\xe8\xbf\x9114\xe5\xa4\xa9","type":"content"},{"option_id":"FILTER..first_order_time..GREATER_EQUAL.DATE.OPTION_PARA.DATE_NOW-30D","title":"\xe6\x9c\x80\xe8\xbf\x9130\xe5\xa4\xa9","type":"content"},{"option_id":"FILTER..first_order_time..BETWEEN.DATE.TIME_RANGE","title":"\xe8\x87\xaa\xe5\xae\x9a\xe4\xb9\x89","type":"time_range"}],"title":"\xe9\xa6\x96\xe5\x8d\x95\xe6\x97\xb6\xe9\x97\xb4","values":[]}],"title":"\xe7\x94\xa8\xe6\x88\xb7\xe5\xb1\x9e\xe6\x80\xa7"},{"filters_list":[{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe7\xb4\xaf\xe8\xae\xa1\xe4\xb8\x8b\xe5\x8d\x95\xe7\x9a\x84\xe6\x95\xb0\xe9\x87\x8f","filter_id":"order.order","options":[{"option_id":"AGGREGATION.COUNT.order.aggr_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-7D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x917\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.order.aggr_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-14D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x9114\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.order.aggr_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-30D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x9130\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.order.aggr_order.BETWEEN.DATE.OPTION_TIME_RANGE","title":"\xe8\x87\xaa\xe5\xae\x9a\xe4\xb9\x89","type":"time_range"}],"title":"\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xa2\xe5\x8d\x95\xe9\x87\x8f","values":[{"title":"\xe5\xa4\xa7\xe4\xba\x8e","type":"input","value_id":"value.aggr_order.GREATER.UINT64.VALUE_INPUT"},{"title":"\xe5\xb0\x8f\xe4\xba\x8e","type":"input","value_id":"value.aggr_order.LESS.UINT64.VALUE_INPUT"},{"title":"\xe8\x8c\x83\xe5\x9b\xb4","type":"input-double","value_id":"value.aggr_order.BETWEEN.UINT64.VALUE_INPUT"}]},{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe7\xb4\xaf\xe8\xae\xa1\xe6\x8a\xa5\xe4\xbf\xae\xe8\xae\xa2\xe5\x8d\x95\xe7\x9a\x84\xe6\x95\xb0\xe9\x87\x8f","filter_id":"order.repair_order","options":[{"option_id":"AGGREGATION.COUNT.repair_order.aggr_repair_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-7D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x917\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.repair_order.aggr_repair_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-14D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x9114\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.repair_order.aggr_repair_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-30D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x9130\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.repair_order.aggr_repair_order.BETWEEN.DATE.OPTION_TIME_RANGE","title":"\xe8\x87\xaa\xe5\xae\x9a\xe4\xb9\x89","type":"time_range"}],"title":"\xe6\x8a\xa5\xe4\xbf\xae\xe8\xae\xa2\xe5\x8d\x95\xe9\x87\x8f","values":[{"title":"\xe5\xa4\xa7\xe4\xba\x8e","type":"input","value_id":"value.aggr_repair_order.GREATER.UINT64.VALUE_INPUT"},{"title":"\xe5\xb0\x8f\xe4\xba\x8e","type":"input","value_id":"value.aggr_repair_order.LESS.UINT64.VALUE_INPUT"},{"title":"\xe8\x8c\x83\xe5\x9b\xb4","type":"input-double","value_id":"value.aggr_repair_order.BETWEEN.UINT64.VALUE_INPUT"}]},{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe7\xb4\xaf\xe8\xae\xa1\xe5\x85\x8d\xe8\xb4\xb9\xe8\xae\xa2\xe5\x8d\x95\xe7\x9a\x84\xe6\x95\xb0\xe9\x87\x8f","filter_id":"order.free_order","options":[{"option_id":"AGGREGATION.COUNT.free_order.aggr_free_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-7D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x917\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.free_order.aggr_free_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-14D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x9114\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.free_order.aggr_free_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-30D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x9130\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.free_order.aggr_free_order.BETWEEN.DATE.OPTION_TIME_RANGE","title":"\xe8\x87\xaa\xe5\xae\x9a\xe4\xb9\x89","type":"time_range"}],"title":"\xe5\x85\x8d\xe8\xb4\xb9\xe8\xae\xa2\xe5\x8d\x95\xe9\x87\x8f","values":[{"title":"\xe5\xa4\xa7\xe4\xba\x8e","type":"input","value_id":"value.aggr_free_order.GREATER.UINT64.VALUE_INPUT"},{"title":"\xe5\xb0\x8f\xe4\xba\x8e","type":"input","value_id":"value.aggr_free_order.LESS.UINT64.VALUE_INPUT"},{"title":"\xe8\x8c\x83\xe5\x9b\xb4","type":"input-double","value_id":"value.aggr_free_order.BETWEEN.UINT64.VALUE_INPUT"}]},{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe7\xb4\xaf\xe8\xae\xa1\xe5\xb7\xa5\xe4\xbd\x9c\xe6\x97\xa5\xe8\xae\xa2\xe5\x8d\x95\xe7\x9a\x84\xe6\x95\xb0\xe9\x87\x8f","filter_id":"order.work_order","options":[{"option_id":"AGGREGATION.COUNT.work_order.aggr_work_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-7D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x917\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.work_order.aggr_work_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-14D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x9114\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.work_order.aggr_work_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-30D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x9130\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.work_order.aggr_work_order.BETWEEN.DATE.OPTION_TIME_RANGE","title":"\xe8\x87\xaa\xe5\xae\x9a\xe4\xb9\x89","type":"time_range"}],"title":"\xe5\xb7\xa5\xe4\xbd\x9c\xe6\x97\xa5\xe8\xae\xa2\xe5\x8d\x95\xe9\x87\x8f","values":[{"title":"\xe5\xa4\xa7\xe4\xba\x8e","type":"input","value_id":"value.aggr_work_order.GREATER.UINT64.VALUE_INPUT"},{"title":"\xe5\xb0\x8f\xe4\xba\x8e","type":"input","value_id":"value.aggr_work_order.LESS.UINT64.VALUE_INPUT"},{"title":"\xe8\x8c\x83\xe5\x9b\xb4","type":"input-double","value_id":"value.aggr_work_order.BETWEEN.UINT64.VALUE_INPUT"}]},{"comments":"\xe7\x94\xa8\xe6\x88\xb7\xe9\xab\x98\xe5\xb3\xb0\xe6\x9c\x9f\xe8\xae\xa2\xe5\x8d\x95\xe7\x9a\x84\xe6\x95\xb0\xe9\x87\x8f","filter_id":"order.peak_order","options":[{"option_id":"AGGREGATION.COUNT.peak_order.aggr_peak_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-7D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x917\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.peak_order.aggr_peak_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-14D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x9114\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.peak_order.aggr_peak_order.BETWEEN.DATE.OPTION_PARA.DATE_NOW-30D.DATE_NOW","title":"\xe6\x9c\x80\xe8\xbf\x9130\xe5\xa4\xa9","type":"content"},{"option_id":"AGGREGATION.COUNT.peak_order.aggr_peak_order.BETWEEN.DATE.OPTION_TIME_RANGE","title":"\xe8\x87\xaa\xe5\xae\x9a\xe4\xb9\x89","type":"time_range"}],"title":"\xe9\xab\x98\xe5\xb3\xb0\xe6\x9c\x9f\xe8\xae\xa2\xe5\x8d\x95\xe9\x87\x8f","values":[{"title":"\xe5\xa4\xa7\xe4\xba\x8e","type":"input","value_id":"value.aggr_peak_order.GREATER.UINT64.VALUE_INPUT"},{"title":"\xe5\xb0\x8f\xe4\xba\x8e","type":"input","value_id":"value.aggr_peak_order.LESS.UINT64.VALUE_INPUT"},{"title":"\xe8\x8c\x83\xe5\x9b\xb4","type":"input-double","value_id":"value.aggr_peak_order.BETWEEN.UINT64.VALUE_INPUT"}]}],"title":"\xe8\xae\xa2\xe5\x8d\x95\xe5\xb1\x9e\xe6\x80\xa7"}],"err_code":0,"err_message":"SUCCESS"}'
+type after decode &lt;class 'str'&gt;
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>总计</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</div>
+</body>
+</html>

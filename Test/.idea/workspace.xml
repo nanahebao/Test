@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2052487d-5cf4-4005-8111-ebc61c4b9aa1" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Test$DB.coverage" NAME="DB Coverage Results" MODIFIED="1505888984613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_in_test_positive_py.coverage" NAME="Nosetests in test_positive.py Coverage Results" MODIFIED="1505370697038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/personas" />
+    <SUITE FILE_PATH="coverage/Test$test_suite.coverage" NAME="test_bikesuite Coverage Results" MODIFIED="1513148908710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/biketest" />
+    <SUITE FILE_PATH="coverage/Test$color.coverage" NAME="test_schedule_query.py Coverage Results" MODIFIED="1518062913678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/ad_admin/testcases" />
+    <SUITE FILE_PATH="coverage/Test$test_ad.coverage" NAME="test_ad Coverage Results" MODIFIED="1512440964500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/adsystem/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$testcount1.coverage" NAME="testcount1 Coverage Results" MODIFIED="1514530602035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/bike" />
+    <SUITE FILE_PATH="coverage/Test$xmid2xml.coverage" NAME="xmid2xml Coverage Results" MODIFIED="1505466493640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_for_test_posivite_test_get_config.coverage" NAME="Nosetests for project.personas.test_positive.test_get_config Coverage Results" MODIFIED="1505108719249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/personas" />
+    <SUITE FILE_PATH="coverage/Test$log.coverage" NAME="log Coverage Results" MODIFIED="1505114372539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_for_test_positive_test_get_config.coverage" NAME="Nosetests for test_positive.test_get_config Coverage Results" MODIFIED="1505118522220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/personas" />
+    <SUITE FILE_PATH="coverage/Test$absuite.coverage" NAME="absuite Coverage Results" MODIFIED="1505905632236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/abtest" />
+    <SUITE FILE_PATH="coverage/Test$api2_py.coverage" NAME="hello.py Coverage Results" MODIFIED="1516790865881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dev" />
+    <SUITE FILE_PATH="coverage/Test$test_schedule_situation_py.coverage" NAME="test_schedule_situation.py Coverage Results" MODIFIED="1518059730096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/ad_admin/testcases" />
+    <SUITE FILE_PATH="coverage/Test$hello_py.coverage" NAME="hello.py Coverage Results" MODIFIED="1524912677329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dev" />
+    <SUITE FILE_PATH="coverage/Test$test_bi.coverage" NAME="test_bi Coverage Results" MODIFIED="1525919663396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/BI" />
+    <SUITE FILE_PATH="coverage/Test$test_count.coverage" NAME="test_count Coverage Results" MODIFIED="1514530071187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/bike" />
+    <SUITE FILE_PATH="coverage/Test$htt.coverage" NAME="test_ad2 Coverage Results" MODIFIED="1512374559768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
+    <SUITE FILE_PATH="coverage/Test$test_group.coverage" NAME="test_group Coverage Results" MODIFIED="1505907263189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/abtest/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$TestPosivite.coverage" NAME="TestPosivite Coverage Results" MODIFIED="1533285121497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/personas" />
+    <SUITE FILE_PATH="coverage/Test$test_bikegroup.coverage" NAME="pachong Coverage Results" MODIFIED="1513071868430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/biketest/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$htmltestrunner.coverage" NAME="htmltestrunner Coverage Results" MODIFIED="1505272449287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$bike_group.coverage" NAME="bike_group Coverage Results" MODIFIED="1512981923806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/biketest/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$nextday.coverage" NAME="nextday Coverage Results" MODIFIED="1514537634787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/bike" />
+    <SUITE FILE_PATH="coverage/Test$dbreq.coverage" NAME="dbreq Coverage Results" MODIFIED="1525771916349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/BI" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_in_test_posivite_py.coverage" NAME="Nosetests in test_posivite.py Coverage Results" MODIFIED="1505103754579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/personas" />
+    <SUITE FILE_PATH="coverage/Test$conf.coverage" NAME="conf Coverage Results" MODIFIED="1504866796133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
+    <SUITE FILE_PATH="coverage/Test$test_update.coverage" NAME="test_update Coverage Results" MODIFIED="1512730285124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/bitest/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_in_testlog_py.coverage" NAME="Nosetests in testlog.py Coverage Results" MODIFIED="1505117778303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personas" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_for_test_group_TestGroup.coverage" NAME="Nosetests for test_group.TestGroup Coverage Results" MODIFIED="1505720847572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/abtest/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$test_photo.coverage" NAME="test_photo Coverage Results" MODIFIED="1516624313859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/photo/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_in_HTMLTestRunner_py.coverage" NAME="Nosetests in HTMLTestRunner.py Coverage Results" MODIFIED="1505269839107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$conmysql.coverage" NAME="conmysql Coverage Results" MODIFIED="1525767255959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/BI" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_in_test_a_py.coverage" NAME="Nosetests in test_a.py Coverage Results" MODIFIED="1525834117881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/BI" />
+    <SUITE FILE_PATH="coverage/Test$test_setnx.coverage" NAME="test_setnx Coverage Results" MODIFIED="1513738562741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/adsystem/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$RequestProcess.coverage" NAME="RequestProcess Coverage Results" MODIFIED="1505118394500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$test.coverage" NAME="test Coverage Results" MODIFIED="1512031787078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
+    <SUITE FILE_PATH="coverage/Test$file_process.coverage" NAME="file_process Coverage Results" MODIFIED="1533285099704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$test_a.coverage" NAME="test_a Coverage Results" MODIFIED="1525836723046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/BI" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_in_test_py.coverage" NAME="Nosetests in test.py Coverage Results" MODIFIED="1525772031101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/BI" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_in_test_update_py.coverage" NAME="Nosetests in test_update.py Coverage Results" MODIFIED="1512525292729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/bitest/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_in_test_suite_py.coverage" NAME="Nosetests in test_suite.py Coverage Results" MODIFIED="1505370574221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/personas" />
+    <SUITE FILE_PATH="coverage/Test$zet.coverage" NAME="zet Coverage Results" MODIFIED="1512378077205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
+    <SUITE FILE_PATH="coverage/Test$DataProcess.coverage" NAME="DataProcess Coverage Results" MODIFIED="1504578071960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1518061159754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/ad_admin/testcases" />
+    <SUITE FILE_PATH="coverage/Test$FileProcess.coverage" NAME="FileProcess Coverage Results" MODIFIED="1504691537211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$test_te.coverage" NAME="test_log Coverage Results" MODIFIED="1512024089676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/adsystem/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$test_schedule_query.coverage" NAME="test_schedule_query Coverage Results" MODIFIED="1518060631375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/ad_admin/testcases" />
+    <SUITE FILE_PATH="coverage/Test$mysq.coverage" NAME="mysq Coverage Results" MODIFIED="1516095882461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/photo/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$test_bikes.coverage" NAME="test_bikes Coverage Results" MODIFIED="1522056517035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/bikes/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$test_bike.coverage" NAME="test_adid_setnx2 Coverage Results" MODIFIED="1513755273044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/adsystem/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$if.coverage" NAME="if Coverage Results" MODIFIED="1518508011089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
+    <SUITE FILE_PATH="coverage/Test$redis.coverage" NAME="redis Coverage Results" MODIFIED="1505720825421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$testlog.coverage" NAME="testlog Coverage Results" MODIFIED="1505118099591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personas" />
+    <SUITE FILE_PATH="coverage/Test$test_nextday.coverage" NAME="test_nextday Coverage Results" MODIFIED="1514535075730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/bikes/test_cases" />
+    <SUITE FILE_PATH="coverage/Test$count.coverage" NAME="count Coverage Results" MODIFIED="1525954391533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/BI" />
+    <SUITE FILE_PATH="coverage/Test$log_l.coverage" NAME="log_l Coverage Results" MODIFIED="1524126316931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$day2onl.coverage" NAME="day2onl Coverage Results" MODIFIED="1514536799491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/bike" />
+    <SUITE FILE_PATH="coverage/Test$employee.coverage" NAME="employee Coverage Results" MODIFIED="1512034925083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
+    <SUITE FILE_PATH="coverage/Test$deletedata.coverage" NAME="deletedata Coverage Results" MODIFIED="1514449686973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/bike" />
+    <SUITE FILE_PATH="coverage/Test$testsuite.coverage" NAME="testsuite Coverage Results" MODIFIED="1505905621066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/personas" />
+    <SUITE FILE_PATH="coverage/Test$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1505907463404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$testn.coverage" NAME="testn Coverage Results" MODIFIED="1514528833575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/bike" />
+    <SUITE FILE_PATH="coverage/Test$DB2.coverage" NAME="ODPS Coverage Results" MODIFIED="1514367043663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/Test$Nosetests_in_test_ad_py.coverage" NAME="Nosetests in test_ad.py Coverage Results" MODIFIED="1511851150504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/adsystem/test_cases" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1135071757">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/biketest/test_bikesuite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/abtest/test_suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/abtest/test_cases/test_group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-188">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/bike/test_count.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1665">
+              <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1514459916000" expanded="true" signature="210:5923" ph="select Acval... carno" />
+                <marker date="1514459916000" expanded="true" signature="256:5872" ph="select A.car... carno" />
+                <marker date="1514459916000" expanded="true" signature="531:626" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514459916000" expanded="true" signature="648:790" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514459916000" expanded="true" signature="832:972" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514459916000" expanded="true" signature="1014:1164" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514459916000" expanded="true" signature="1206:1331" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514459916000" expanded="true" signature="1374:3387" ph="select carno... carno" />
+                <marker date="1514459916000" expanded="true" signature="1431:2568" ph="select t_las... carno" />
+                <marker date="1514459916000" expanded="true" signature="1745:2165" ph="select carno... carno" />
+                <marker date="1514459916000" expanded="true" signature="1773:2160" ph="select carno... carno" />
+                <marker date="1514459916000" expanded="true" signature="1805:1985" ph="select carno... *" />
+                <marker date="1514459916000" expanded="true" signature="1824:1942" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514459916000" expanded="true" signature="2004:2139" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514459916000" expanded="true" signature="2211:2281" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514459916000" expanded="true" signature="2372:2499" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514459916000" expanded="true" signature="2579:3378" ph="select t_tod... carno" />
+                <marker date="1514459916000" expanded="true" signature="2642:3026" ph="select carno... carno" />
+                <marker date="1514459916000" expanded="true" signature="2671:2851" ph="select carno... *" />
+                <marker date="1514459916000" expanded="true" signature="2690:2808" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514459916000" expanded="true" signature="2870:3005" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514459916000" expanded="true" signature="3073:3273" ph="select carno... *" />
+                <marker date="1514459916000" expanded="true" signature="3092:3207" ph="select *,row... ofo_t_order_hg" />
+                <marker date="1514459916000" expanded="true" signature="3400:5664" ph="select tt.ca... carno" />
+                <marker date="1514459916000" expanded="true" signature="3474:3542" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514459916000" expanded="true" signature="3565:5613" ph="select carno... carno" />
+                <marker date="1514459916000" expanded="true" signature="3622:4758" ph="select t_las... carno" />
+                <marker date="1514459916000" expanded="true" signature="3936:4356" ph="select carno... carno" />
+                <marker date="1514459916000" expanded="true" signature="3964:4351" ph="select carno... carno" />
+                <marker date="1514459916000" expanded="true" signature="3996:4176" ph="select carno... *" />
+                <marker date="1514459916000" expanded="true" signature="4015:4133" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514459916000" expanded="true" signature="4195:4330" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514459916000" expanded="true" signature="4402:4472" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514459916000" expanded="true" signature="4563:4689" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514459916000" expanded="true" signature="4769:5604" ph="select t_tod... carno" />
+                <marker date="1514459916000" expanded="true" signature="4832:5252" ph="select carno... carno" />
+                <marker date="1514459916000" expanded="true" signature="4860:5247" ph="select carno... carno" />
+                <marker date="1514459916000" expanded="true" signature="4892:5072" ph="select carno... *" />
+                <marker date="1514459916000" expanded="true" signature="4911:5029" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514459916000" expanded="true" signature="5091:5226" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514459916000" expanded="true" signature="5299:5499" ph="select carno... *" />
+                <marker date="1514459916000" expanded="true" signature="5318:5433" ph="select *,row... ofo_t_order_hg" />
+                <marker date="1514459916000" expanded="true" signature="5709:5821" ph="select carno... ofo_t_station_record" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/personas/test_cases/test_positive.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/bike/test_ne2only.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <marker date="1514536799000" expanded="true" signature="210:5826" ph="select A.car... carno" />
+                <marker date="1514536799000" expanded="true" signature="485:580" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514536799000" expanded="true" signature="602:744" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514536799000" expanded="true" signature="786:926" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514536799000" expanded="true" signature="968:1118" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514536799000" expanded="true" signature="1160:1285" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514536799000" expanded="true" signature="1328:3341" ph="select carno... carno" />
+                <marker date="1514536799000" expanded="true" signature="1385:2522" ph="select t_las... carno" />
+                <marker date="1514536799000" expanded="true" signature="1699:2119" ph="select carno... carno" />
+                <marker date="1514536799000" expanded="true" signature="1727:2114" ph="select carno... carno" />
+                <marker date="1514536799000" expanded="true" signature="1759:1939" ph="select carno... *" />
+                <marker date="1514536799000" expanded="true" signature="1778:1896" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514536799000" expanded="true" signature="1958:2093" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514536799000" expanded="true" signature="2165:2235" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514536799000" expanded="true" signature="2326:2453" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514536799000" expanded="true" signature="2533:3332" ph="select t_tod... carno" />
+                <marker date="1514536799000" expanded="true" signature="2596:2980" ph="select carno... carno" />
+                <marker date="1514536799000" expanded="true" signature="2625:2805" ph="select carno... *" />
+                <marker date="1514536799000" expanded="true" signature="2644:2762" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514536799000" expanded="true" signature="2824:2959" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514536799000" expanded="true" signature="3027:3227" ph="select carno... *" />
+                <marker date="1514536799000" expanded="true" signature="3046:3161" ph="select *,row... ofo_t_order_hg" />
+                <marker date="1514536799000" expanded="true" signature="3354:5618" ph="select tt.ca... carno" />
+                <marker date="1514536799000" expanded="true" signature="3428:3496" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514536799000" expanded="true" signature="3519:5567" ph="select carno... carno" />
+                <marker date="1514536799000" expanded="true" signature="3576:4712" ph="select t_las... carno" />
+                <marker date="1514536799000" expanded="true" signature="3890:4310" ph="select carno... carno" />
+                <marker date="1514536799000" expanded="true" signature="3918:4305" ph="select carno... carno" />
+                <marker date="1514536799000" expanded="true" signature="3950:4130" ph="select carno... *" />
+                <marker date="1514536799000" expanded="true" signature="3969:4087" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514536799000" expanded="true" signature="4149:4284" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514536799000" expanded="true" signature="4356:4426" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514536799000" expanded="true" signature="4517:4643" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514536799000" expanded="true" signature="4723:5558" ph="select t_tod... carno" />
+                <marker date="1514536799000" expanded="true" signature="4786:5206" ph="select carno... carno" />
+                <marker date="1514536799000" expanded="true" signature="4814:5201" ph="select carno... carno" />
+                <marker date="1514536799000" expanded="true" signature="4846:5026" ph="select carno... *" />
+                <marker date="1514536799000" expanded="true" signature="4865:4983" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514536799000" expanded="true" signature="5045:5180" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514536799000" expanded="true" signature="5253:5453" ph="select carno... *" />
+                <marker date="1514536799000" expanded="true" signature="5272:5387" ph="select *,row... ofo_t_order_hg" />
+                <marker date="1514536799000" expanded="true" signature="5663:5775" ph="select carno... ofo_t_station_record" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/bike/test_nexco.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1514537633000" expanded="true" signature="210:6022" ph="select Acval... carno" />
+                <marker date="1514537633000" expanded="true" signature="265:5962" ph="select A.car... carno" />
+                <marker date="1514537633000" expanded="true" signature="622:717" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514537633000" expanded="true" signature="739:881" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514537633000" expanded="true" signature="923:1063" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514537633000" expanded="true" signature="1105:1255" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514537633000" expanded="true" signature="1297:1422" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514537633000" expanded="true" signature="1465:3477" ph="select carno... carno" />
+                <marker date="1514537633000" expanded="true" signature="1522:2658" ph="select t_las... carno" />
+                <marker date="1514537633000" expanded="true" signature="1836:2256" ph="select carno... carno" />
+                <marker date="1514537633000" expanded="true" signature="1864:2251" ph="select carno... carno" />
+                <marker date="1514537633000" expanded="true" signature="1896:2076" ph="select carno... *" />
+                <marker date="1514537633000" expanded="true" signature="1915:2033" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514537633000" expanded="true" signature="2095:2230" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514537633000" expanded="true" signature="2302:2372" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514537633000" expanded="true" signature="2463:2589" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514537633000" expanded="true" signature="2669:3468" ph="select t_tod... carno" />
+                <marker date="1514537633000" expanded="true" signature="2732:3116" ph="select carno... carno" />
+                <marker date="1514537633000" expanded="true" signature="2761:2941" ph="select carno... *" />
+                <marker date="1514537633000" expanded="true" signature="2780:2898" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514537633000" expanded="true" signature="2960:3095" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514537633000" expanded="true" signature="3163:3363" ph="select carno... *" />
+                <marker date="1514537633000" expanded="true" signature="3182:3297" ph="select *,row... ofo_t_order_hg" />
+                <marker date="1514537633000" expanded="true" signature="3490:5754" ph="select tt.ca... carno" />
+                <marker date="1514537633000" expanded="true" signature="3564:3632" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514537633000" expanded="true" signature="3655:5703" ph="select carno... carno" />
+                <marker date="1514537633000" expanded="true" signature="3712:4848" ph="select t_las... carno" />
+                <marker date="1514537633000" expanded="true" signature="4026:4446" ph="select carno... carno" />
+                <marker date="1514537633000" expanded="true" signature="4054:4441" ph="select carno... carno" />
+                <marker date="1514537633000" expanded="true" signature="4086:4266" ph="select carno... *" />
+                <marker date="1514537633000" expanded="true" signature="4105:4223" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514537633000" expanded="true" signature="4285:4420" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514537633000" expanded="true" signature="4492:4562" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514537633000" expanded="true" signature="4653:4779" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514537633000" expanded="true" signature="4859:5694" ph="select t_tod... carno" />
+                <marker date="1514537633000" expanded="true" signature="4922:5342" ph="select carno... carno" />
+                <marker date="1514537633000" expanded="true" signature="4950:5337" ph="select carno... carno" />
+                <marker date="1514537633000" expanded="true" signature="4982:5162" ph="select carno... *" />
+                <marker date="1514537633000" expanded="true" signature="5001:5119" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514537633000" expanded="true" signature="5181:5316" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514537633000" expanded="true" signature="5389:5589" ph="select carno... *" />
+                <marker date="1514537633000" expanded="true" signature="5408:5523" ph="select *,row... ofo_t_order_hg" />
+                <marker date="1514537633000" expanded="true" signature="5799:5911" ph="select carno... ofo_t_station_record" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/bike/testn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-947">
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1514449738000" expanded="true" signature="210:5826" ph="select A.car... carno" />
+                <marker date="1514449738000" expanded="true" signature="485:580" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514449738000" expanded="true" signature="602:744" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514449738000" expanded="true" signature="786:926" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514449738000" expanded="true" signature="968:1118" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514449738000" expanded="true" signature="1160:1285" ph="select carno... ofo_t_bike_location" />
+                <marker date="1514449738000" expanded="true" signature="1328:3341" ph="select carno... carno" />
+                <marker date="1514449738000" expanded="true" signature="1385:2522" ph="select t_las... carno" />
+                <marker date="1514449738000" expanded="true" signature="1699:2119" ph="select carno... carno" />
+                <marker date="1514449738000" expanded="true" signature="1727:2114" ph="select carno... carno" />
+                <marker date="1514449738000" expanded="true" signature="1759:1939" ph="select carno... *" />
+                <marker date="1514449738000" expanded="true" signature="1778:1896" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514449738000" expanded="true" signature="1958:2093" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514449738000" expanded="true" signature="2165:2235" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514449738000" expanded="true" signature="2326:2453" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514449738000" expanded="true" signature="2533:3332" ph="select t_tod... carno" />
+                <marker date="1514449738000" expanded="true" signature="2596:2980" ph="select carno... carno" />
+                <marker date="1514449738000" expanded="true" signature="2625:2805" ph="select carno... *" />
+                <marker date="1514449738000" expanded="true" signature="2644:2762" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514449738000" expanded="true" signature="2824:2959" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514449738000" expanded="true" signature="3027:3227" ph="select carno... *" />
+                <marker date="1514449738000" expanded="true" signature="3046:3161" ph="select *,row... ofo_t_order_hg" />
+                <marker date="1514449738000" expanded="true" signature="3354:5618" ph="select tt.ca... carno" />
+                <marker date="1514449738000" expanded="true" signature="3428:3496" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514449738000" expanded="true" signature="3519:5567" ph="select carno... carno" />
+                <marker date="1514449738000" expanded="true" signature="3576:4712" ph="select t_las... carno" />
+                <marker date="1514449738000" expanded="true" signature="3890:4310" ph="select carno... carno" />
+                <marker date="1514449738000" expanded="true" signature="3918:4305" ph="select carno... carno" />
+                <marker date="1514449738000" expanded="true" signature="3950:4130" ph="select carno... *" />
+                <marker date="1514449738000" expanded="true" signature="3969:4087" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514449738000" expanded="true" signature="4149:4284" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514449738000" expanded="true" signature="4356:4426" ph="select carno... ofo_t_order_hg" />
+                <marker date="1514449738000" expanded="true" signature="4517:4643" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514449738000" expanded="true" signature="4723:5558" ph="select t_tod... carno" />
+                <marker date="1514449738000" expanded="true" signature="4786:5206" ph="select carno... carno" />
+                <marker date="1514449738000" expanded="true" signature="4814:5201" ph="select carno... carno" />
+                <marker date="1514449738000" expanded="true" signature="4846:5026" ph="select carno... *" />
+                <marker date="1514449738000" expanded="true" signature="4865:4983" ph="select *,row... ofo_t_order_state" />
+                <marker date="1514449738000" expanded="true" signature="5045:5180" ph="select bicyc... ofo_t_bicycle_mark_records" />
+                <marker date="1514449738000" expanded="true" signature="5253:5453" ph="select carno... *" />
+                <marker date="1514449738000" expanded="true" signature="5272:5387" ph="select *,row... ofo_t_order_hg" />
+                <marker date="1514449738000" expanded="true" signature="5663:5775" ph="select carno... ofo_t_station_record" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/bike/weilan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-791">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/bikes/test_cases/test_nextday.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="yaml" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>poi_data</find>
+      <find>116.353686</find>
+      <find>rail_path</find>
+      <find>poi_center</find>
+      <find>罗少秋</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/project/adsystem/test_cases/test_adid_setnx.py" />
+        <option value="$PROJECT_DIR$/project/adsystem/test_cases/test_adid_sentnx_2.py" />
+        <option value="$PROJECT_DIR$/project/bikes/conf.py" />
+        <option value="$PROJECT_DIR$/project/biketest/test_bikessuite.py" />
+        <option value="$PROJECT_DIR$/project/bikes/test_bikessuite.py" />
+        <option value="$PROJECT_DIR$/project/bike/deletedate.py" />
+        <option value="$PROJECT_DIR$/project/bike/testn.py" />
+        <option value="$PROJECT_DIR$/project/bike/test_count.py" />
+        <option value="$PROJECT_DIR$/project/bike/testn1.py" />
+        <option value="$PROJECT_DIR$/project/bikes/test_cases/test_bikediertian.py" />
+        <option value="$PROJECT_DIR$/project/bikes/test_cases/test_nextday.py" />
+        <option value="$PROJECT_DIR$/project/bike/nextday.py" />
+        <option value="$PROJECT_DIR$/project/bike/test_nexco.py" />
+        <option value="$PROJECT_DIR$/project/bikes/test_cases/conf.py" />
+        <option value="$PROJECT_DIR$/lib/ODPS.py" />
+        <option value="$PROJECT_DIR$/project/photo/test_cases/mysq.py" />
+        <option value="$PROJECT_DIR$/project/connect/lc.py" />
+        <option value="$PROJECT_DIR$/project/photo/test_cases/test_photo.py" />
+        <option value="$PROJECT_DIR$/dev/api.py" />
+        <option value="$PROJECT_DIR$/dev/simple.py" />
+        <option value="$PROJECT_DIR$/dev/api2.py" />
+        <option value="$PROJECT_DIR$/project/bitest/test_cases/test_color.py" />
+        <option value="$PROJECT_DIR$/project/ad_admin/testcase.py" />
+        <option value="$PROJECT_DIR$/project/ad_admin/testcases/test_get_adment_by_schedule.py" />
+        <option value="$PROJECT_DIR$/project/ad_admin/testcases/test_check_schedule.py" />
+        <option value="$PROJECT_DIR$/project/ad_admin/testcases/conf.py" />
+        <option value="$PROJECT_DIR$/project/ad_admin/testcases/test1.py" />
+        <option value="$PROJECT_DIR$/project/ad_admin/testcases/test_schedule_situation.py" />
+        <option value="$PROJECT_DIR$/lib/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/project/ad_admin/testcases/test_schedule_query.py" />
+        <option value="$PROJECT_DIR$/project/ad_admin/test_schedule_query.py" />
+        <option value="$PROJECT_DIR$/lib/send_email.py" />
+        <option value="$PROJECT_DIR$/practise/test1.py" />
+        <option value="$PROJECT_DIR$/practise/webserver1.py" />
+        <option value="$PROJECT_DIR$/practise/if.py" />
+        <option value="$PROJECT_DIR$/project/yearcard/test_case/test_bound.py" />
+        <option value="$PROJECT_DIR$/project/abtest/test_suite.py" />
+        <option value="$PROJECT_DIR$/lib/request_process.py" />
+        <option value="$PROJECT_DIR$/lib/log.py" />
+        <option value="$PROJECT_DIR$/lib/DB.py" />
+        <option value="$PROJECT_DIR$/dev/hello.py" />
+        <option value="$PROJECT_DIR$/project/BI/conmysql.py" />
+        <option value="$PROJECT_DIR$/project/BI/conn.py" />
+        <option value="$PROJECT_DIR$/project/BI/test_a.py" />
+        <option value="$PROJECT_DIR$/project/BI/test.py" />
+        <option value="$PROJECT_DIR$/project/BI/log123.txt" />
+        <option value="$PROJECT_DIR$/project/BI/count.py" />
+        <option value="$PROJECT_DIR$/practise/test_ad.py" />
+        <option value="$PROJECT_DIR$/project/bikes/test_cases/test_bikes.py" />
+        <option value="$PROJECT_DIR$/project/abtest/test_cases/test_group.py" />
+        <option value="$PROJECT_DIR$/project/bike/test_ne2only.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="37" />
+    <option name="y" value="23" />
+    <option name="width" value="1403" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="bike" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (jTds)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/yearcard" />
+      <recent name="$PROJECT_DIR$/project/ad_admin" />
+      <recent name="$PROJECT_DIR$/project/ad_admin/testcases" />
+      <recent name="$PROJECT_DIR$/project/abtest/test_cases" />
+      <recent name="$PROJECT_DIR$/project/personas/data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/adsystem/test_cases" />
+      <recent name="$PROJECT_DIR$/project/logs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.TestPosivite">
+    <configuration name="" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/bikes/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/bikes/test_cases/test_bikes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DB" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPosivite" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/personas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/personas/test_cases/test_positive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/redis_req.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="absuite" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/abtest" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/abtest/test_suite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bike_group" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/biketest/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/biketest/test_cases/test_bike.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="conf" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/conf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="count" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/BI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/BI/count.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="day2onl" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/bike" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/bike/test_ne2only.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dbreq" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/BI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/BI/dbreq.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deletedata" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/bike" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/bike/deletedate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="employee" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/adsystem/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/adsystem/test_cases/test_ad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="file_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/file_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dev" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dev/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="if" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practise" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practise/if.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="log_l" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysq" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/photo/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/photo/test_cases/test_photo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nextday" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/photo/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/photo/test_cases/mysq.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pachong" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/biketest" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/biketest/test_bikesuite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="redis" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/redis_req.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practise" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practise/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/ad_admin/testcases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/ad_admin/testcases/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_a" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/BI" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/BI/test_a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_ad" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/adsystem/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/adsystem/test_cases/test_ad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_ad2" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practise" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practise/test_ad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_adid_setnx2" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/adsystem/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/adsystem/test_cases/test_adid_sentnx_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_bi" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/BI" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/BI/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_bikes" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/bikes/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/bikes/test_cases/test_bikes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_bikesuite" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/biketest" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/biketest/test_bikesuite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_count" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/bike" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/bike/test_count.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_group" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/abtest/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/abtest/test_cases/test_group.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_log" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/adsystem/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/adsystem/test_cases/test_log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_nextday" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/bikes/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/bikes/test_cases/test_nextday.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_photo" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/photo/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/photo/test_cases/test_photo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_schedule_query" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/ad_admin/testcases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/ad_admin/test_schedule_query.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_schedule_query.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/ad_admin/testcases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/ad_admin/test_schedule_query.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_schedule_situation.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/ad_admin/testcases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/ad_admin/test_schedule_query.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_setnx" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/adsystem/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/adsystem/test_cases/test_adid_sentnx_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_uidnu" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/adsystem/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/adsystem/test_cases/test_uidnu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_update" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/bitest/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/bitest/test_cases/test_update.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testcount1" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/bike" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/bike/weilan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testlog" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personas" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personas/testlog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testn" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/bike" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/bike/testn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testsuite" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/personas" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/personas/test_suite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zet" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practise" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practise/zet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for test_group.TestGroup" type="tests" factoryName="Nosetests" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/abtest/test_cases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_group.TestGroup&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for test_positive.py" type="tests" factoryName="Nosetests" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/personas" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_positive.py&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in test_a.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/BI" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/project/BI/test_a.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in test.py" type="tests" factoryName="Nosetests" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/BI" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/project/BI/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_posivite.py" type="tests" factoryName="Nosetests">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/personas" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/project/personas/test_posivite.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.py" type="tests" factoryName="Nosetests" temporary="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/BI" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/project/BI/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Nosetests in test.py" />
+      <item itemvalue="Python.conf" />
+      <item itemvalue="Python tests.Nosetests for test_positive.py" />
+      <item itemvalue="Python tests.test_posivite.py" />
+      <item itemvalue="Python.testlog" />
+      <item itemvalue="Python.TestPosivite" />
+      <item itemvalue="Python.testsuite" />
+      <item itemvalue="Python.test_group" />
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.absuite" />
+      <item itemvalue="Python.test_uidnu" />
+      <item itemvalue="Python.test_ad" />
+      <item itemvalue="Python.test_log" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.employee" />
+      <item itemvalue="Python.test_ad2" />
+      <item itemvalue="Python.zet" />
+      <item itemvalue="Python.test_update" />
+      <item itemvalue="Python.bike_group" />
+      <item itemvalue="Python.pachong" />
+      <item itemvalue="Python.test_bikesuite" />
+      <item itemvalue="Python.if" />
+      <item itemvalue="Python.test_adid_setnx2" />
+      <item itemvalue="Python.redis" />
+      <item itemvalue="Python.test_setnx" />
+      <item itemvalue="Python.DB" />
+      <item itemvalue="Python.test_bikes" />
+      <item itemvalue="Python.deletedata" />
+      <item itemvalue="Python.testn" />
+      <item itemvalue="Python.test_count" />
+      <item itemvalue="Python.testcount1" />
+      <item itemvalue="Python tests.Nosetests for test_group.TestGroup" />
+      <item itemvalue="Python.test_nextday" />
+      <item itemvalue="Python.day2onl" />
+      <item itemvalue="Python.nextday" />
+      <item itemvalue="Python.mysq" />
+      <item itemvalue="Python.test_photo" />
+      <item itemvalue="Python.hello.py" />
+      <item itemvalue="Python.test_schedule_query.py" />
+      <item itemvalue="Python.test_schedule_situation.py" />
+      <item itemvalue="Python.test_schedule_query" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python." />
+      <item itemvalue="Python.log_l" />
+      <item itemvalue="Python.test_bi" />
+      <item itemvalue="Python.test_a" />
+      <item itemvalue="Python.dbreq" />
+      <item itemvalue="Python tests.test.py" />
+      <item itemvalue="Python.count" />
+      <item itemvalue="Python tests.Nosetests in test_a.py" />
+      <item itemvalue="Python.file_process" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.file_process" />
+        <item itemvalue="Python.count" />
+        <item itemvalue="Python tests.Nosetests in test_a.py" />
+        <item itemvalue="Python tests.test.py" />
+        <item itemvalue="Python.dbreq" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2052487d-5cf4-4005-8111-ebc61c4b9aa1" name="Default" comment="" />
+      <created>1504063095508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504063095508</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_test_a_py - 2018.05.09 at 10h 46m 28s.xml">
+      <configuration name="Nosetests in test_a.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_a_py - 2018.05.09 at 10h 46m 56s.xml">
+      <configuration name="Nosetests in test_a.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_a_py - 2018.05.09 at 10h 48m 37s.xml">
+      <configuration name="Nosetests in test_a.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_py - 2018.05.08 at 17h 23m 52s.xml">
+      <configuration name="Nosetests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_py - 2018.05.08 at 17h 33m 51s.xml">
+      <configuration name="Nosetests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_suite_py - 2017.09.14 at 14h 29m 35s.xml">
+      <configuration name="Nosetests in test_suite.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_update_py - 2017.12.06 at 09h 54m 52s.xml">
+      <configuration name="Nosetests in test_update.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="test_py - 2018.05.08 at 17h 31m 10s.xml">
+      <configuration name="test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="test_py - 2018.05.08 at 17h 32m 17s.xml">
+      <configuration name="test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="test_py - 2018.05.08 at 17h 32m 40s.xml">
+      <configuration name="test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="37" y="23" width="1403" height="877" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.110199295" side_tool="true" weight="0.19513889" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.8898007" visible="true" weight="0.29684055" />
+      <window_info id="Structure" order="2" weight="0.24964234" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50549453" side_tool="true" weight="0.43821657" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4945055" weight="0.43821657" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32289156" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.355414" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.38915664" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32771084" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.32891566" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Data View" order="0" />
+      <window_info anchor="right" id="Database" order="1" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24609375" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32934928" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.36387783" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39967898" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Data View" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/abtest/test_suite.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/xmid2xml.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/bikes/test_cases/test_bikes.py</url>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/abtest/test_cases/test_group.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dev/hello.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/BI/test.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/DB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" selection-start-line="31" selection-end-line="49" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_nosetest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/info.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/erros.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BI/conmysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BI/dbreq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BI/test_a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BI/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#1#20#0" />
+            <marker date="1525850965000" expanded="true" signature="308:402" ph="select name,... bi_uuap_permission" />
+            <marker date="1525850965000" expanded="true" signature="705:783" ph="select count... t_rail" />
+            <marker date="1525850965000" expanded="true" signature="876:1069" ph="select count... code" />
+            <marker date="1525850965000" expanded="true" signature="898:955" ph="select code t_rail" />
+            <marker date="1525850965000" expanded="true" signature="965:1044" ph="select disti... ofo_engine_uuap_role_source" />
+            <marker date="1525850965000" expanded="true" signature="1497:1559" ph="select count... t_rail" />
+            <marker date="1525850965000" expanded="true" signature="1667:1860" ph="select count... code" />
+            <marker date="1525850965000" expanded="true" signature="1689:1746" ph="select code t_rail" />
+            <marker date="1525850965000" expanded="true" signature="1756:1835" ph="select disti... ofo_engine_uuap_role_source" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BI/log123.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BI/wrong.text">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BI/count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/photo/test_cases/mysq.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/webserver1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/employee.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/htt.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/if.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/mysql.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/pachong.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/test_ad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/biketest/test_cases/conf.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/bikes/test_cases/conf.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/redis_req.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/abtest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/abtest/test_cases/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/logging.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/abtest/conf.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/abtest/test_cases/conf.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/personas/test_suite.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/file_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/request_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/personas/data/test_positive.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2250" selection-end-column="8479" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/personas/test_cases/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/myconn.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/bikes/test_cases/test_bikes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4155">
+          <caret line="277" column="33" selection-start-line="277" selection-start-column="33" selection-end-line="277" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/bikes/test_bikessuite.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/biketest/test_cases/test_bike.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#18#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/personas/test_cases/test_positive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/bikes/test_cases/test_nextday.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/biketest/test_bikesuite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/abtest/test_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/abtest/test_cases/test_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/bike/test_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1514459916000" expanded="true" signature="210:5923" ph="select Acval... carno" />
+            <marker date="1514459916000" expanded="true" signature="256:5872" ph="select A.car... carno" />
+            <marker date="1514459916000" expanded="true" signature="531:626" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514459916000" expanded="true" signature="648:790" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514459916000" expanded="true" signature="832:972" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514459916000" expanded="true" signature="1014:1164" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514459916000" expanded="true" signature="1206:1331" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514459916000" expanded="true" signature="1374:3387" ph="select carno... carno" />
+            <marker date="1514459916000" expanded="true" signature="1431:2568" ph="select t_las... carno" />
+            <marker date="1514459916000" expanded="true" signature="1745:2165" ph="select carno... carno" />
+            <marker date="1514459916000" expanded="true" signature="1773:2160" ph="select carno... carno" />
+            <marker date="1514459916000" expanded="true" signature="1805:1985" ph="select carno... *" />
+            <marker date="1514459916000" expanded="true" signature="1824:1942" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514459916000" expanded="true" signature="2004:2139" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514459916000" expanded="true" signature="2211:2281" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514459916000" expanded="true" signature="2372:2499" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514459916000" expanded="true" signature="2579:3378" ph="select t_tod... carno" />
+            <marker date="1514459916000" expanded="true" signature="2642:3026" ph="select carno... carno" />
+            <marker date="1514459916000" expanded="true" signature="2671:2851" ph="select carno... *" />
+            <marker date="1514459916000" expanded="true" signature="2690:2808" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514459916000" expanded="true" signature="2870:3005" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514459916000" expanded="true" signature="3073:3273" ph="select carno... *" />
+            <marker date="1514459916000" expanded="true" signature="3092:3207" ph="select *,row... ofo_t_order_hg" />
+            <marker date="1514459916000" expanded="true" signature="3400:5664" ph="select tt.ca... carno" />
+            <marker date="1514459916000" expanded="true" signature="3474:3542" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514459916000" expanded="true" signature="3565:5613" ph="select carno... carno" />
+            <marker date="1514459916000" expanded="true" signature="3622:4758" ph="select t_las... carno" />
+            <marker date="1514459916000" expanded="true" signature="3936:4356" ph="select carno... carno" />
+            <marker date="1514459916000" expanded="true" signature="3964:4351" ph="select carno... carno" />
+            <marker date="1514459916000" expanded="true" signature="3996:4176" ph="select carno... *" />
+            <marker date="1514459916000" expanded="true" signature="4015:4133" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514459916000" expanded="true" signature="4195:4330" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514459916000" expanded="true" signature="4402:4472" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514459916000" expanded="true" signature="4563:4689" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514459916000" expanded="true" signature="4769:5604" ph="select t_tod... carno" />
+            <marker date="1514459916000" expanded="true" signature="4832:5252" ph="select carno... carno" />
+            <marker date="1514459916000" expanded="true" signature="4860:5247" ph="select carno... carno" />
+            <marker date="1514459916000" expanded="true" signature="4892:5072" ph="select carno... *" />
+            <marker date="1514459916000" expanded="true" signature="4911:5029" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514459916000" expanded="true" signature="5091:5226" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514459916000" expanded="true" signature="5299:5499" ph="select carno... *" />
+            <marker date="1514459916000" expanded="true" signature="5318:5433" ph="select *,row... ofo_t_order_hg" />
+            <marker date="1514459916000" expanded="true" signature="5709:5821" ph="select carno... ofo_t_station_record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/bike/test_ne2only.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1514536799000" expanded="true" signature="210:5826" ph="select A.car... carno" />
+            <marker date="1514536799000" expanded="true" signature="485:580" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514536799000" expanded="true" signature="602:744" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514536799000" expanded="true" signature="786:926" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514536799000" expanded="true" signature="968:1118" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514536799000" expanded="true" signature="1160:1285" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514536799000" expanded="true" signature="1328:3341" ph="select carno... carno" />
+            <marker date="1514536799000" expanded="true" signature="1385:2522" ph="select t_las... carno" />
+            <marker date="1514536799000" expanded="true" signature="1699:2119" ph="select carno... carno" />
+            <marker date="1514536799000" expanded="true" signature="1727:2114" ph="select carno... carno" />
+            <marker date="1514536799000" expanded="true" signature="1759:1939" ph="select carno... *" />
+            <marker date="1514536799000" expanded="true" signature="1778:1896" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514536799000" expanded="true" signature="1958:2093" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514536799000" expanded="true" signature="2165:2235" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514536799000" expanded="true" signature="2326:2453" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514536799000" expanded="true" signature="2533:3332" ph="select t_tod... carno" />
+            <marker date="1514536799000" expanded="true" signature="2596:2980" ph="select carno... carno" />
+            <marker date="1514536799000" expanded="true" signature="2625:2805" ph="select carno... *" />
+            <marker date="1514536799000" expanded="true" signature="2644:2762" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514536799000" expanded="true" signature="2824:2959" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514536799000" expanded="true" signature="3027:3227" ph="select carno... *" />
+            <marker date="1514536799000" expanded="true" signature="3046:3161" ph="select *,row... ofo_t_order_hg" />
+            <marker date="1514536799000" expanded="true" signature="3354:5618" ph="select tt.ca... carno" />
+            <marker date="1514536799000" expanded="true" signature="3428:3496" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514536799000" expanded="true" signature="3519:5567" ph="select carno... carno" />
+            <marker date="1514536799000" expanded="true" signature="3576:4712" ph="select t_las... carno" />
+            <marker date="1514536799000" expanded="true" signature="3890:4310" ph="select carno... carno" />
+            <marker date="1514536799000" expanded="true" signature="3918:4305" ph="select carno... carno" />
+            <marker date="1514536799000" expanded="true" signature="3950:4130" ph="select carno... *" />
+            <marker date="1514536799000" expanded="true" signature="3969:4087" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514536799000" expanded="true" signature="4149:4284" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514536799000" expanded="true" signature="4356:4426" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514536799000" expanded="true" signature="4517:4643" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514536799000" expanded="true" signature="4723:5558" ph="select t_tod... carno" />
+            <marker date="1514536799000" expanded="true" signature="4786:5206" ph="select carno... carno" />
+            <marker date="1514536799000" expanded="true" signature="4814:5201" ph="select carno... carno" />
+            <marker date="1514536799000" expanded="true" signature="4846:5026" ph="select carno... *" />
+            <marker date="1514536799000" expanded="true" signature="4865:4983" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514536799000" expanded="true" signature="5045:5180" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514536799000" expanded="true" signature="5253:5453" ph="select carno... *" />
+            <marker date="1514536799000" expanded="true" signature="5272:5387" ph="select *,row... ofo_t_order_hg" />
+            <marker date="1514536799000" expanded="true" signature="5663:5775" ph="select carno... ofo_t_station_record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/bike/test_nexco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1514537633000" expanded="true" signature="210:6022" ph="select Acval... carno" />
+            <marker date="1514537633000" expanded="true" signature="265:5962" ph="select A.car... carno" />
+            <marker date="1514537633000" expanded="true" signature="622:717" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514537633000" expanded="true" signature="739:881" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514537633000" expanded="true" signature="923:1063" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514537633000" expanded="true" signature="1105:1255" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514537633000" expanded="true" signature="1297:1422" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514537633000" expanded="true" signature="1465:3477" ph="select carno... carno" />
+            <marker date="1514537633000" expanded="true" signature="1522:2658" ph="select t_las... carno" />
+            <marker date="1514537633000" expanded="true" signature="1836:2256" ph="select carno... carno" />
+            <marker date="1514537633000" expanded="true" signature="1864:2251" ph="select carno... carno" />
+            <marker date="1514537633000" expanded="true" signature="1896:2076" ph="select carno... *" />
+            <marker date="1514537633000" expanded="true" signature="1915:2033" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514537633000" expanded="true" signature="2095:2230" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514537633000" expanded="true" signature="2302:2372" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514537633000" expanded="true" signature="2463:2589" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514537633000" expanded="true" signature="2669:3468" ph="select t_tod... carno" />
+            <marker date="1514537633000" expanded="true" signature="2732:3116" ph="select carno... carno" />
+            <marker date="1514537633000" expanded="true" signature="2761:2941" ph="select carno... *" />
+            <marker date="1514537633000" expanded="true" signature="2780:2898" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514537633000" expanded="true" signature="2960:3095" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514537633000" expanded="true" signature="3163:3363" ph="select carno... *" />
+            <marker date="1514537633000" expanded="true" signature="3182:3297" ph="select *,row... ofo_t_order_hg" />
+            <marker date="1514537633000" expanded="true" signature="3490:5754" ph="select tt.ca... carno" />
+            <marker date="1514537633000" expanded="true" signature="3564:3632" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514537633000" expanded="true" signature="3655:5703" ph="select carno... carno" />
+            <marker date="1514537633000" expanded="true" signature="3712:4848" ph="select t_las... carno" />
+            <marker date="1514537633000" expanded="true" signature="4026:4446" ph="select carno... carno" />
+            <marker date="1514537633000" expanded="true" signature="4054:4441" ph="select carno... carno" />
+            <marker date="1514537633000" expanded="true" signature="4086:4266" ph="select carno... *" />
+            <marker date="1514537633000" expanded="true" signature="4105:4223" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514537633000" expanded="true" signature="4285:4420" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514537633000" expanded="true" signature="4492:4562" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514537633000" expanded="true" signature="4653:4779" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514537633000" expanded="true" signature="4859:5694" ph="select t_tod... carno" />
+            <marker date="1514537633000" expanded="true" signature="4922:5342" ph="select carno... carno" />
+            <marker date="1514537633000" expanded="true" signature="4950:5337" ph="select carno... carno" />
+            <marker date="1514537633000" expanded="true" signature="4982:5162" ph="select carno... *" />
+            <marker date="1514537633000" expanded="true" signature="5001:5119" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514537633000" expanded="true" signature="5181:5316" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514537633000" expanded="true" signature="5389:5589" ph="select carno... *" />
+            <marker date="1514537633000" expanded="true" signature="5408:5523" ph="select *,row... ofo_t_order_hg" />
+            <marker date="1514537633000" expanded="true" signature="5799:5911" ph="select carno... ofo_t_station_record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/bike/testn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-947">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1514449738000" expanded="true" signature="210:5826" ph="select A.car... carno" />
+            <marker date="1514449738000" expanded="true" signature="485:580" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514449738000" expanded="true" signature="602:744" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514449738000" expanded="true" signature="786:926" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514449738000" expanded="true" signature="968:1118" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514449738000" expanded="true" signature="1160:1285" ph="select carno... ofo_t_bike_location" />
+            <marker date="1514449738000" expanded="true" signature="1328:3341" ph="select carno... carno" />
+            <marker date="1514449738000" expanded="true" signature="1385:2522" ph="select t_las... carno" />
+            <marker date="1514449738000" expanded="true" signature="1699:2119" ph="select carno... carno" />
+            <marker date="1514449738000" expanded="true" signature="1727:2114" ph="select carno... carno" />
+            <marker date="1514449738000" expanded="true" signature="1759:1939" ph="select carno... *" />
+            <marker date="1514449738000" expanded="true" signature="1778:1896" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514449738000" expanded="true" signature="1958:2093" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514449738000" expanded="true" signature="2165:2235" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514449738000" expanded="true" signature="2326:2453" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514449738000" expanded="true" signature="2533:3332" ph="select t_tod... carno" />
+            <marker date="1514449738000" expanded="true" signature="2596:2980" ph="select carno... carno" />
+            <marker date="1514449738000" expanded="true" signature="2625:2805" ph="select carno... *" />
+            <marker date="1514449738000" expanded="true" signature="2644:2762" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514449738000" expanded="true" signature="2824:2959" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514449738000" expanded="true" signature="3027:3227" ph="select carno... *" />
+            <marker date="1514449738000" expanded="true" signature="3046:3161" ph="select *,row... ofo_t_order_hg" />
+            <marker date="1514449738000" expanded="true" signature="3354:5618" ph="select tt.ca... carno" />
+            <marker date="1514449738000" expanded="true" signature="3428:3496" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514449738000" expanded="true" signature="3519:5567" ph="select carno... carno" />
+            <marker date="1514449738000" expanded="true" signature="3576:4712" ph="select t_las... carno" />
+            <marker date="1514449738000" expanded="true" signature="3890:4310" ph="select carno... carno" />
+            <marker date="1514449738000" expanded="true" signature="3918:4305" ph="select carno... carno" />
+            <marker date="1514449738000" expanded="true" signature="3950:4130" ph="select carno... *" />
+            <marker date="1514449738000" expanded="true" signature="3969:4087" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514449738000" expanded="true" signature="4149:4284" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514449738000" expanded="true" signature="4356:4426" ph="select carno... ofo_t_order_hg" />
+            <marker date="1514449738000" expanded="true" signature="4517:4643" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514449738000" expanded="true" signature="4723:5558" ph="select t_tod... carno" />
+            <marker date="1514449738000" expanded="true" signature="4786:5206" ph="select carno... carno" />
+            <marker date="1514449738000" expanded="true" signature="4814:5201" ph="select carno... carno" />
+            <marker date="1514449738000" expanded="true" signature="4846:5026" ph="select carno... *" />
+            <marker date="1514449738000" expanded="true" signature="4865:4983" ph="select *,row... ofo_t_order_state" />
+            <marker date="1514449738000" expanded="true" signature="5045:5180" ph="select bicyc... ofo_t_bicycle_mark_records" />
+            <marker date="1514449738000" expanded="true" signature="5253:5453" ph="select carno... *" />
+            <marker date="1514449738000" expanded="true" signature="5272:5387" ph="select *,row... ofo_t_order_hg" />
+            <marker date="1514449738000" expanded="true" signature="5663:5775" ph="select carno... ofo_t_station_record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/bike/weilan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-791">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

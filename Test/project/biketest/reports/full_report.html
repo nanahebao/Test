@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Automation test report</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { white-space: pre-wrap;word-wrap: break-word; }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    /* width: 500px;*/
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 99%;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #74A474; }
+.failClass  { background-color: #FDD283; }
+.errorClass { background-color: #FF6600; }
+.passCase   { color: #6c6; }
+.failCase   { color: #FF6600; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+#div_base {
+            position:absolute;
+            top:0%;
+            left:5%;
+            right:5%;
+            width: auto;
+            height: auto;
+            margin: -15px 0 0 0;
+}
+</style>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div id="div_base">
+
+<div class='page-header'>
+<h1>Automation test report</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-12-13 15:08:28</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:05.525475</p>
+<p class='attribute'><strong>状态:</strong> 通过 10 失败 1</p>
+
+</div>
+<p class='description'>This is a full regression test report of ABTest-UserGroup</p>
+
+
+
+<div class="btn-group btn-group-sm">
+<button class="btn btn-default" onclick='javascript:showCase(0)'>总结</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+</div>
+<p></p>
+<table id='result_table' class="table table-bordered">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='failClass'>
+    <td>project.biketest.test_cases.test_bike.TestBike</td>
+    <td>11</td>
+    <td>10</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',11)">详情</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_indentifyNum1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: {'data': [{'zone_id': 'MI', 'zone_name': 'N_A_A2_11_W', 'num': 73, 'rate': '72.00'}], 'code': '200', 'msg': 'Success'}
+{'data': [{'zone_id': 'GTY', 'zone_name': 'N-B5', 'num': 581, 'rate': '11.36'}, {'zone_id': 'RT', 'zone_name': 'N-B1', 'num': 479, 'rate': '12.69'}, {'zone_id': 'QP', 'zone_name': 'C-B2', 'num': 451, 'rate': '5.73'}, {'zone_id': 'HY', 'zone_name': 'N-B6', 'num': 389, 'rate': '7.64'}, {'zone_id': 'QT', 'zone_name': 'C-A3', 'num': 353, 'rate': '4.04'}, {'zone_id': 'FDHJ4', 'zone_name': 'C-B9', 'num': 323, 'rate': '8.23'}, {'zone_id': 'QY', 'zone_name': 'C-A4', 'num': 307, 'rate': '13.62'}, {'zone_id': 'ADJGK', 'zone_name': 'N-B10', 'num': 297, 'rate': '5.75'}, {'zone_id': 'WE', 'zone_name': 'C-B5', 'num': 296, 'rate': '2.18'}, {'zone_id': 'TY', 'zone_name': 'N-B3', 'num': 296, 'rate': '1.64'}, {'zone_id': 'ER', 'zone_name': 'N-A1', 'num': 276, 'rate': '91.00'}, {'zone_id': 'SDGE', 'zone_name': 'N-A2', 'num': 272, 'rate': '4.13'}, {'zone_id': 'EI', 'zone_name': 'N-A7', 'num': 233, 'rate': '8.71'}, {'zone_id': 'DE', 'zone_name': 'N-B4', 'num': 213, 'rate': '2.18'}, {'zone_id': 'WEFFG', 'zone_name': 'N-A11', 'num': 211, 'rate': '210.00'}, {'zone_id': 'swymj', 'zone_name': 'C-B13', 'num': 209, 'rate': '1.43'}, {'zone_id': 'QO', 'zone_name': 'C-B1', 'num': 197, 'rate': '2.03'}, {'zone_id': 'QU', 'zone_name': 'C-A5', 'num': 194, 'rate': '96.00'}, {'zone_id': 'HYU', 'zone_name': 'N-B7', 'num': 186, 'rate': '0.22'}, {'zone_id': 'SDGF', 'zone_name': 'N-B9', 'num': 175, 'rate': '2.65'}, {'zone_id': 'WY', 'zone_name': 'C-B11', 'num': 151, 'rate': '3.19'}, {'zone_id': 'WU', 'zone_name': 'C-B10', 'num': 147, 'rate': '1.16'}, {'zone_id': 'WP', 'zone_name': 'C-B4', 'num': 141, 'rate': '2.92'}, {'zone_id': 'HYUJ', 'zone_name': 'N-B11', 'num': 141, 'rate': '2.62'}, {'zone_id': 'RU', 'zone_name': 'N-B2', 'num': 135, 'rate': '2.46'}, {'zone_id': '1JHKFD', 'zone_name': 'C-B12', 'num': 133, 'rate': '6.82'}, {'zone_id': 'QE', 'zone_name': 'C-A2', 'num': 129, 'rate': '24.80'}, {'zone_id': 'QI', 'zone_name': 'C-A6', 'num': 127, 'rate': '41.33'}, {'zone_id': 'WR', 'zone_name': 'C-B6', 'num': 106, 'rate': '4.89'}, {'zone_id': 'F', 'zone_name': 'N-B12', 'num': 103, 'rate': '11.88'}, {'zone_id': 'WER321345', 'zone_name': 'N_A_A2_4_WX', 'num': 103, 'rate': '102.00'}, {'zone_id': 'MW', 'zone_name': 'N-A12', 'num': 97, 'rate': '4.71'}, {'zone_id': 'ED', 'zone_name': 'N-A9', 'num': 88, 'rate': '5.77'}, {'zone_id': 'EU', 'zone_name': 'N-A6', 'num': 87, 'rate': '11.43'}, {'zone_id': 'T1', 'zone_name': 'N_A_A4_5_W', 'num': 84, 'rate': '13.00'}, {'zone_id': 'GDE', 'zone_name': 'C-A8', 'num': 76, 'rate': 1}, {'zone_id': 'MI', 'zone_name': 'N_A_A2_11_W', 'num': 73, 'rate': '72.00'}, {'zone_id': 'ASDF', 'zone_name': 'N-A3', 'num': 73, 'rate': 1}, {'zone_id': 'VJ', 'zone_name': 'C_A_A1_9_W', 'num': 72, 'rate': '5.55'}, {'zone_id': 'KJUYG', 'zone_name': 'C-C3', 'num': 71, 'rate': 1}, {'zone_id': 'EC', 'zone_name': 'D_A_A5_18_W', 'num': 70, 'rate': '4.00'}, {'zone_id': 'RGH', 'zone_name': 'D_A_A5_19_W', 'num': 70, 'rate': '22.33'}, {'zone_id': 'DGDS', 'zone_name': 'ä½ç½ä»_WX', 'num': 70, 'rate': 1}, {'zone_id': 'VF', 'zone_name': 'C-A9', 'num': 68, 'rate': '67.00'}, {'zone_id': 'ASDASYNM', 'zone_name': 'C-C8', 'num': 64, 'rate': 1}, {'zone_id': 'QSD', 'zone_name': 'N-A10', 'num': 63, 'rate': '1.42'}, {'zone_id': 'FHT', 'zone_name': 'N-B8', 'num': 61, 'rate': '-0.50'}, {'zone_id': 'EZ', 'zone_name': 'D_A_A5_17_W', 'num': 58, 'rate': '28.00'}, {'zone_id': 'DGR4G', 'zone_name': 'C-C4', 'num': 57, 'rate': 1}, {'zone_id': 'ZQ', 'zone_name': 'C_A_A1_1_W', 'num': 55, 'rate': '1.20'}, {'zone_id': 'CAA16WX', 'zone_name': 'C_A_A1_66_WX', 'num': 51, 'rate': '16.00'}, {'zone_id': 'sdfsfwx', 'zone_name': 'D_A_A5_12_WX', 'num': 49, 'rate': 1}, {'zone_id': 'VHFYFL', 'zone_name': 'N-A14', 'num': 46, 'rate': 1}, {'zone_id': 'QW', 'zone_name': 'C-A1', 'num': 45, 'rate': '1.81'}, {'zone_id': 'ASD88', 'zone_name': 'C_A_A5_88_W', 'num': 35, 'rate': '0.75'}, {'zone_id': 'wfgy', 'zone_name': 'C-C5', 'num': 31, 'rate': '30.00'}, {'zone_id': 'AFEWGWEER', 'zone_name': 'C-C7', 'num': 31, 'rate': 1}, {'zone_id': 'RG', 'zone_name': 'D_A_A5_16_W', 'num': 27, 'rate': '5.75'}, {'zone_id': 'fky', 'zone_name': 'C-A7', 'num': 25, 'rate': '0.47'}, {'zone_id': 'LH', 'zone_name': 'C_A_A5_8_W', 'num': 23, 'rate': '0.28'}, {'zone_id': 'MH', 'zone_name': 'N_A_A2_4_W', 'num': 22, 'rate': '21.00'}, {'zone_id': 'GRHE', 'zone_name': 'C_A_A5_7_WX', 'num': 20, 'rate': 1}, {'zone_id': 'cxs771', 'zone_name': 'C_A_A5_771_W', 'num': 19, 'rate': 1}, {'zone_id': 'MS', 'zone_name': 'N_A_A2_8_N', 'num': 17, 'rate': '16.00'}, {'zone_id': 'LD', 'zone_name': 'C_A_A5_6_W', 'num': 15, 'rate': '0.88'}, {'zone_id': 'CAA12WX', 'zone_name': 'C_A_A1_2_WX', 'num': 15, 'rate': '-0.17'}, {'zone_id': 'ZE', 'zone_name': 'C_A_A1_3_W', 'num': 14, 'rate': '1.00'}, {'zone_id': 'LT', 'zone_name': 'C_A_A1_15_W', 'num': 13, 'rate': '-0.24'}, {'zone_id': 'KJHYT', 'zone_name': 'N_A_A2_6_N', 'num': 13, 'rate': '0.30'}, {'zone_id': 'ZY', 'zone_name': 'C_A_A1_5_W', 'num': 12, 'rate': '2.00'}, {'zone_id': 'MJ', 'zone_name': 'N_A_A2_3_W', 'num': 12, 'rate': '0.00'}, {'zone_id': 'zcdjl', 'zone_name': 'C-C6', 'num': 11, 'rate': '4.50'}, {'zone_id': 'CQ', 'zone_name': 'C_A_A1_17_W', 'num': 11, 'rate': 1}, {'zone_id': 'MO', 'zone_name': 'N_A_A2_10_W', 'num': 11, 'rate': 1}, {'zone_id': 'VG', 'zone_name': 'C-A10', 'num': 10, 'rate': '9.00'}, {'zone_id': 'EM', 'zone_name': 'D_A_A4_9_W', 'num': 9, 'rate': 1}, {'zone_id': 'GDSAFG', 'zone_name': 'å¤å¤§ä»_WX', 'num': 9, 'rate': 1}, {'zone_id': 'ADFS', 'zone_name': 'N-A15', 'num': 8, 'rate': 1}, {'zone_id': 'MT', 'zone_name': 'N_A_A2_14_W', 'num': 7, 'rate': 1}, {'zone_id': 'sdfsdfWX', 'zone_name': 'D_A_A5_5_WX', 'num': 7, 'rate': 1}, {'zone_id': 'DJNFDS', 'zone_name': 'C-C11', 'num': 7, 'rate': 1}, {'zone_id': 'EL', 'zone_name': 'N-A8', 'num': 6, 'rate': '1.00'}, {'zone_id': 'VQ', 'zone_name': 'C_A_A1_10_W', 'num': 6, 'rate': '-0.14'}, {'zone_id': 'QWEDF', 'zone_name': 'C_A_A1_7_W', 'num': 6, 'rate': '-0.40'}, {'zone_id': 'ET', 'zone_name': 'N-A4', 'num': 5, 'rate': '0.25'}, {'zone_id': 'VH', 'zone_name': 'C-A11', 'num': 5, 'rate': 1}, {'zone_id': 'DSGR', 'zone_name': 'C_A_A1_2_W', 'num': 4, 'rate': '3.00'}, {'zone_id': 'EG', 'zone_name': 'D_A_A5_12_W', 'num': 3, 'rate': 1}, {'zone_id': 'EV', 'zone_name': 'D_A_A4_7_W', 'num': 3, 'rate': 1}, {'zone_id': 'LW', 'zone_name': 'C_A_A1_14_W', 'num': 3, 'rate': '-0.73'}, {'zone_id': 'MQ', 'zone_name': 'N-A13', 'num': 3, 'rate': '-0.89'}, {'zone_id': '121sc', 'zone_name': 'C_A_A5_66_W', 'num': 3, 'rate': 1}, {'zone_id': 'SDF77', 'zone_name': 'C_A_A5_77_W', 'num': 3, 'rate': 1}, {'zone_id': 'EY', 'zone_name': 'N-A5', 'num': 2, 'rate': '-0.86'}, {'zone_id': 'VD', 'zone_name': 'C-C1', 'num': 2, 'rate': '1.00'}, {'zone_id': 'LL', 'zone_name': 'C_A_A1_16_W', 'num': 2, 'rate': '1.00'}, {'zone_id': 'JEHGJTR', 'zone_name': 'N_A_A3_4_WX', 'num': 2, 'rate': '-0.75'}, {'zone_id': 'GEGRG', 'zone_name': 'C-C12', 'num': 2, 'rate': 1}, {'zone_id': 'WT', 'zone_name': 'C-B7', 'num': 1, 'rate': '-0.95'}, {'zone_id': 'LR', 'zone_name': 'C_A_A1_12_W', 'num': 1, 'rate': '-0.86'}, {'zone_id': 'MD', 'zone_name': 'N_A_A2_7_N', 'num': 1, 'rate': '0.00'}, {'zone_id': 'MY', 'zone_name': 'N_A_A2_13_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'GDS', 'zone_name': 'C-C2', 'num': 1, 'rate': 1}, {'zone_id': 'shunde_biguiyuan', 'zone_name': 'é¡ºå¾·-ç¢§æ¡å­æ»é¨', 'num': 0, 'rate': 0}, {'zone_id': 'AW', 'zone_name': 'C-B3', 'num': 0, 'rate': 0}, {'zone_id': 'WJ', 'zone_name': 'C-C9', 'num': 0, 'rate': 0}, {'zone_id': 'EF', 'zone_name': 'D_A_A5_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'EJ', 'zone_name': 'D_A_A5_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'EK', 'zone_name': 'D_A_A5_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'EN', 'zone_name': 'D_A_A4_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'RA', 'zone_name': 'D_A_A5_15_W', 'num': 0, 'rate': 0}, {'zone_id': 'DFAS', 'zone_name': 'D_A_A4_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZR', 'zone_name': 'C_A_A1_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZU', 'zone_name': 'C_A_A1_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'SQ', 'zone_name': 'C_A_A1_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'LF', 'zone_name': 'C_A_A5_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'LS', 'zone_name': 'C_A_A1_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'ML', 'zone_name': 'N_A_A2_1_N', 'num': 0, 'rate': 0}, {'zone_id': 'MK', 'zone_name': 'N_A_A2_2_N', 'num': 0, 'rate': 0}, {'zone_id': 'MG', 'zone_name': 'N_A_A2_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'MP', 'zone_name': 'N_A_A2_9_W', 'num': 0, 'rate': 0}, {'zone_id': 'MU', 'zone_name': 'N_A_A2_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'G', 'zone_name': 'N_A_A4_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'H', 'zone_name': 'N_A_A4_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'J', 'zone_name': 'N_A_A4_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'L', 'zone_name': 'N_A_A4_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'Z', 'zone_name': 'N_A_A4_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'C', 'zone_name': 'N_A_A4_10_W', 'num': 0, 'rate': 0}, {'zone_id': 'V', 'zone_name': 'N_A_A4_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'N', 'zone_name': 'N_A_A4_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'MJH', 'zone_name': 'N_A_A4_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'Q2', 'zone_name': 'N_A_A22_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'W3', 'zone_name': 'N_A_A22_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'E4', 'zone_name': 'N_A_A22_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'R5', 'zone_name': 'N_A_A22_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'GFT', 'zone_name': 'N_A_A22_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'T54', 'zone_name': 'N_A_A22_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'R453', 'zone_name': 'N_A_A22_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'A1', 'zone_name': 'N_A_A22_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'KDJGSK', 'zone_name': 'C-B8', 'num': 0, 'rate': 0}, {'zone_id': 'QWE123', 'zone_name': 'N_A_A22_3_WX', 'num': 0, 'rate': 0}, {'zone_id': 'SDD', 'zone_name': 'N-A16', 'num': 0, 'rate': 0}, {'zone_id': 'CAA1WW', 'zone_name': 'C_A_A1_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'LJEJG', 'zone_name': 'C-C10', 'num': 0, 'rate': 0}], 'code': '200', 'msg': 'Success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_indentifyTrend_1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: {'data': {'list': [{'date': '2017-12-08', 'week_increase_proportion': '0.00', 'num': 3, 'increase_proportion': '2.00'}, {'date': '2017-12-09', 'week_increase_proportion': 1, 'num': 1, 'increase_proportion': '-0.67'}], 'peek': 11}, 'code': '200', 'msg': 'Success'}
+{'data': {'list': [{'date': '2017-12-08', 'week_increase_proportion': '-0.20', 'num': 10838, 'increase_proportion': '-0.06'}, {'date': '2017-12-09', 'week_increase_proportion': '-0.10', 'num': 12155, 'increase_proportion': '0.12'}], 'peek': 113}, 'code': '200', 'msg': 'Success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_lowPowerNum1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        通过</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: {'data': [{'zone_id': 'MI', 'zone_name': 'N_A_A2_11_W', 'num': 0, 'rate': 0}], 'code': '200', 'msg': 'Success'}
+{'data': [{'zone_id': 'QY', 'zone_name': 'C-A4', 'num': 2, 'rate': '0.00'}, {'zone_id': 'TY', 'zone_name': 'N-B3', 'num': 2, 'rate': '0.00'}, {'zone_id': 'swymj', 'zone_name': 'C-B13', 'num': 1, 'rate': '0.00'}, {'zone_id': 'QU', 'zone_name': 'C-A5', 'num': 1, 'rate': '0.00'}, {'zone_id': 'QI', 'zone_name': 'C-A6', 'num': 1, 'rate': '0.00'}, {'zone_id': 'WR', 'zone_name': 'C-B6', 'num': 1, 'rate': '1.00'}, {'zone_id': 'ER', 'zone_name': 'N-A1', 'num': 1, 'rate': '0.00'}, {'zone_id': 'EI', 'zone_name': 'N-A7', 'num': 1, 'rate': '0.00'}, {'zone_id': 'RT', 'zone_name': 'N-B1', 'num': 1, 'rate': '0.00'}, {'zone_id': 'DE', 'zone_name': 'N-B4', 'num': 1, 'rate': '0.00'}, {'zone_id': 'GTY', 'zone_name': 'N-B5', 'num': 1, 'rate': '0.00'}, {'zone_id': 'DGDS', 'zone_name': 'ä½ç½ä»_WX', 'num': 1, 'rate': '0.00'}, {'zone_id': 'CAA12WX', 'zone_name': 'C_A_A1_2_WX', 'num': 1, 'rate': '0.00'}, {'zone_id': 'DGR4G', 'zone_name': 'C-C4', 'num': 1, 'rate': '0.00'}, {'zone_id': 'T1', 'zone_name': 'N_A_A4_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'zcdjl', 'zone_name': 'C-C6', 'num': 0, 'rate': 0}, {'zone_id': 'wfgy', 'zone_name': 'C-C5', 'num': 0, 'rate': 0}, {'zone_id': 'fky', 'zone_name': 'C-A7', 'num': 0, 'rate': 0}, {'zone_id': 'shunde_biguiyuan', 'zone_name': 'é¡ºå¾·-ç¢§æ¡å­æ»é¨', 'num': 0, 'rate': 0}, {'zone_id': 'QW', 'zone_name': 'C-A1', 'num': 0, 'rate': 0}, {'zone_id': 'QE', 'zone_name': 'C-A2', 'num': 0, 'rate': 0}, {'zone_id': 'QT', 'zone_name': 'C-A3', 'num': 0, 'rate': 0}, {'zone_id': 'QO', 'zone_name': 'C-B1', 'num': 0, 'rate': 0}, {'zone_id': 'QP', 'zone_name': 'C-B2', 'num': 0, 'rate': 0}, {'zone_id': 'AW', 'zone_name': 'C-B3', 'num': 0, 'rate': 0}, {'zone_id': 'WE', 'zone_name': 'C-B5', 'num': 0, 'rate': 0}, {'zone_id': 'WT', 'zone_name': 'C-B7', 'num': 0, 'rate': 0}, {'zone_id': 'WY', 'zone_name': 'C-B11', 'num': 0, 'rate': 0}, {'zone_id': 'WU', 'zone_name': 'C-B10', 'num': 0, 'rate': 0}, {'zone_id': 'WP', 'zone_name': 'C-B4', 'num': 0, 'rate': 0}, {'zone_id': 'ET', 'zone_name': 'N-A4', 'num': 0, 'rate': 0}, {'zone_id': 'EY', 'zone_name': 'N-A5', 'num': 0, 'rate': 0}, {'zone_id': 'EU', 'zone_name': 'N-A6', 'num': 0, 'rate': 0}, {'zone_id': 'EL', 'zone_name': 'N-A8', 'num': 0, 'rate': 0}, {'zone_id': 'ED', 'zone_name': 'N-A9', 'num': 0, 'rate': 0}, {'zone_id': 'QSD', 'zone_name': 'N-A10', 'num': 0, 'rate': 0}, {'zone_id': 'WEFFG', 'zone_name': 'N-A11', 'num': 0, 'rate': 0}, {'zone_id': 'RU', 'zone_name': 'N-B2', 'num': 0, 'rate': 0}, {'zone_id': 'HY', 'zone_name': 'N-B6', 'num': 0, 'rate': 0}, {'zone_id': 'HYU', 'zone_name': 'N-B7', 'num': 0, 'rate': 0}, {'zone_id': 'FHT', 'zone_name': 'N-B8', 'num': 0, 'rate': 0}, {'zone_id': 'SDGF', 'zone_name': 'N-B9', 'num': 0, 'rate': 0}, {'zone_id': 'WJ', 'zone_name': 'C-C9', 'num': 0, 'rate': 0}, {'zone_id': 'EF', 'zone_name': 'D_A_A5_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'EG', 'zone_name': 'D_A_A5_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'EJ', 'zone_name': 'D_A_A5_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'EK', 'zone_name': 'D_A_A5_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'EZ', 'zone_name': 'D_A_A5_17_W', 'num': 0, 'rate': 0}, {'zone_id': 'EC', 'zone_name': 'D_A_A5_18_W', 'num': 0, 'rate': 0}, {'zone_id': 'EV', 'zone_name': 'D_A_A4_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'EN', 'zone_name': 'D_A_A4_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'EM', 'zone_name': 'D_A_A4_9_W', 'num': 0, 'rate': 0}, {'zone_id': 'RA', 'zone_name': 'D_A_A5_15_W', 'num': 0, 'rate': 0}, {'zone_id': 'RG', 'zone_name': 'D_A_A5_16_W', 'num': 0, 'rate': 0}, {'zone_id': 'RGH', 'zone_name': 'D_A_A5_19_W', 'num': 0, 'rate': 0}, {'zone_id': 'DFAS', 'zone_name': 'D_A_A4_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'VD', 'zone_name': 'C-C1', 'num': 0, 'rate': 0}, {'zone_id': 'VF', 'zone_name': 'C-A9', 'num': 0, 'rate': 0}, {'zone_id': 'VG', 'zone_name': 'C-A10', 'num': 0, 'rate': 0}, {'zone_id': 'VH', 'zone_name': 'C-A11', 'num': 0, 'rate': 0}, {'zone_id': 'VJ', 'zone_name': 'C_A_A1_9_W', 'num': 0, 'rate': 0}, {'zone_id': 'VQ', 'zone_name': 'C_A_A1_10_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZQ', 'zone_name': 'C_A_A1_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZE', 'zone_name': 'C_A_A1_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZR', 'zone_name': 'C_A_A1_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZY', 'zone_name': 'C_A_A1_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZU', 'zone_name': 'C_A_A1_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'QWEDF', 'zone_name': 'C_A_A1_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'SQ', 'zone_name': 'C_A_A1_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'DSGR', 'zone_name': 'C_A_A1_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'CQ', 'zone_name': 'C_A_A1_17_W', 'num': 0, 'rate': 0}, {'zone_id': 'LT', 'zone_name': 'C_A_A1_15_W', 'num': 0, 'rate': 0}, {'zone_id': 'LR', 'zone_name': 'C_A_A1_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'LW', 'zone_name': 'C_A_A1_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'LL', 'zone_name': 'C_A_A1_16_W', 'num': 0, 'rate': 0}, {'zone_id': 'LH', 'zone_name': 'C_A_A5_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'LF', 'zone_name': 'C_A_A5_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'LD', 'zone_name': 'C_A_A5_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'LS', 'zone_name': 'C_A_A1_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'ML', 'zone_name': 'N_A_A2_1_N', 'num': 0, 'rate': 0}, {'zone_id': 'MK', 'zone_name': 'N_A_A2_2_N', 'num': 0, 'rate': 0}, {'zone_id': 'MJ', 'zone_name': 'N_A_A2_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'MH', 'zone_name': 'N_A_A2_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'MG', 'zone_name': 'N_A_A2_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'KJHYT', 'zone_name': 'N_A_A2_6_N', 'num': 0, 'rate': 0}, {'zone_id': 'MD', 'zone_name': 'N_A_A2_7_N', 'num': 0, 'rate': 0}, {'zone_id': 'MS', 'zone_name': 'N_A_A2_8_N', 'num': 0, 'rate': 0}, {'zone_id': 'MP', 'zone_name': 'N_A_A2_9_W', 'num': 0, 'rate': 0}, {'zone_id': 'MO', 'zone_name': 'N_A_A2_10_W', 'num': 0, 'rate': 0}, {'zone_id': 'MI', 'zone_name': 'N_A_A2_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'MU', 'zone_name': 'N_A_A2_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'MY', 'zone_name': 'N_A_A2_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'MT', 'zone_name': 'N_A_A2_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'MW', 'zone_name': 'N-A12', 'num': 0, 'rate': 0}, {'zone_id': 'MQ', 'zone_name': 'N-A13', 'num': 0, 'rate': 0}, {'zone_id': 'HYUJ', 'zone_name': 'N-B11', 'num': 0, 'rate': 0}, {'zone_id': 'F', 'zone_name': 'N-B12', 'num': 0, 'rate': 0}, {'zone_id': 'G', 'zone_name': 'N_A_A4_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'H', 'zone_name': 'N_A_A4_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'J', 'zone_name': 'N_A_A4_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'L', 'zone_name': 'N_A_A4_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'Z', 'zone_name': 'N_A_A4_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'C', 'zone_name': 'N_A_A4_10_W', 'num': 0, 'rate': 0}, {'zone_id': 'V', 'zone_name': 'N_A_A4_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'N', 'zone_name': 'N_A_A4_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'MJH', 'zone_name': 'N_A_A4_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'Q2', 'zone_name': 'N_A_A22_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'W3', 'zone_name': 'N_A_A22_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'E4', 'zone_name': 'N_A_A22_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'R5', 'zone_name': 'N_A_A22_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'GFT', 'zone_name': 'N_A_A22_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'T54', 'zone_name': 'N_A_A22_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'R453', 'zone_name': 'N_A_A22_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'A1', 'zone_name': 'N_A_A22_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'KDJGSK', 'zone_name': 'C-B8', 'num': 0, 'rate': 0}, {'zone_id': 'SDGE', 'zone_name': 'N-A2', 'num': 0, 'rate': 0}, {'zone_id': 'ADJGK', 'zone_name': 'N-B10', 'num': 0, 'rate': 0}, {'zone_id': '121sc', 'zone_name': 'C_A_A5_66_W', 'num': 0, 'rate': 0}, {'zone_id': 'SDF77', 'zone_name': 'C_A_A5_77_W', 'num': 0, 'rate': 0}, {'zone_id': 'cxs771', 'zone_name': 'C_A_A5_771_W', 'num': 0, 'rate': 0}, {'zone_id': 'ASD88', 'zone_name': 'C_A_A5_88_W', 'num': 0, 'rate': 0}, {'zone_id': 'FDHJ4', 'zone_name': 'C-B9', 'num': 0, 'rate': 0}, {'zone_id': '1JHKFD', 'zone_name': 'C-B12', 'num': 0, 'rate': 0}, {'zone_id': 'GDSAFG', 'zone_name': 'å¤å¤§ä»_WX', 'num': 0, 'rate': 0}, {'zone_id': 'GRHE', 'zone_name': 'C_A_A5_7_WX', 'num': 0, 'rate': 0}, {'zone_id': 'JEHGJTR', 'zone_name': 'N_A_A3_4_WX', 'num': 0, 'rate': 0}, {'zone_id': 'QWE123', 'zone_name': 'N_A_A22_3_WX', 'num': 0, 'rate': 0}, {'zone_id': 'WER321345', 'zone_name': 'N_A_A2_4_WX', 'num': 0, 'rate': 0}, {'zone_id': 'sdfsfwx', 'zone_name': 'D_A_A5_12_WX', 'num': 0, 'rate': 0}, {'zone_id': 'sdfsdfWX', 'zone_name': 'D_A_A5_5_WX', 'num': 0, 'rate': 0}, {'zone_id': 'CAA16WX', 'zone_name': 'C_A_A1_66_WX', 'num': 0, 'rate': 0}, {'zone_id': 'VHFYFL', 'zone_name': 'N-A14', 'num': 0, 'rate': 0}, {'zone_id': 'ADFS', 'zone_name': 'N-A15', 'num': 0, 'rate': 0}, {'zone_id': 'SDD', 'zone_name': 'N-A16', 'num': 0, 'rate': 0}, {'zone_id': 'CAA1WW', 'zone_name': 'C_A_A1_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'AFEWGWEER', 'zone_name': 'C-C7', 'num': 0, 'rate': 0}, {'zone_id': 'ASDASYNM', 'zone_name': 'C-C8', 'num': 0, 'rate': 0}, {'zone_id': 'GDE', 'zone_name': 'C-A8', 'num': 0, 'rate': 0}, {'zone_id': 'KJUYG', 'zone_name': 'C-C3', 'num': 0, 'rate': 0}, {'zone_id': 'DJNFDS', 'zone_name': 'C-C11', 'num': 0, 'rate': 0}, {'zone_id': 'ASDF', 'zone_name': 'N-A3', 'num': 0, 'rate': 0}, {'zone_id': 'LJEJG', 'zone_name': 'C-C10', 'num': 0, 'rate': 0}, {'zone_id': 'GEGRG', 'zone_name': 'C-C12', 'num': 0, 'rate': 0}, {'zone_id': 'GDS', 'zone_name': 'C-C2', 'num': 0, 'rate': 0}], 'code': '200', 'msg': 'Success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.4' class='none'>
+    <td class='failCase'><div class='testcase'>test_lowPowerNum_11</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
+        失败</a>
+
+    <div id='div_ft1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.4: {'code': 400, 'msg': 'paramsError'}
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/biketest/test_cases/test_bike.py", line 116, in test_lowPowerNum_11
+    assert rs.json()['msg'] == 'Success'
+AssertionError
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_lowPowerTrend_1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        通过</a>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: {'data': {'list': [{'date': '2017-12-08', 'week_increase_proportion': 0, 'num': 0, 'rate': 0, 'increase_proportion': 0}, {'date': '2017-12-09', 'week_increase_proportion': 0, 'num': 0, 'rate': 0, 'increase_proportion': 0}], 'peek': 0}, 'code': '200', 'msg': 'Success'}
+{'data': {'list': [{'date': '2017-12-08', 'week_increase_proportion': '-0.21', 'num': 15, 'rate': '0.47', 'increase_proportion': '-0.25'}, {'date': '2017-12-09', 'week_increase_proportion': '0.20', 'num': 24, 'rate': '0.04', 'increase_proportion': '0.60'}], 'peek': 113}, 'code': '200', 'msg': 'Success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_recoveryNum1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.6')" >
+        通过</a>
+
+    <div id='div_pt1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.6: {'data': [{'zone_id': 'MI', 'zone_name': 'N_A_A2_11_W', 'num': 0, 'rate': 0}], 'code': '200', 'msg': 'Success'}
+{'data': [{'zone_id': 'T1', 'zone_name': 'N_A_A4_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'zcdjl', 'zone_name': 'C-C6', 'num': 0, 'rate': 0}, {'zone_id': 'wfgy', 'zone_name': 'C-C5', 'num': 0, 'rate': 0}, {'zone_id': 'fky', 'zone_name': 'C-A7', 'num': 0, 'rate': 0}, {'zone_id': 'swymj', 'zone_name': 'C-B13', 'num': 0, 'rate': 0}, {'zone_id': 'shunde_biguiyuan', 'zone_name': 'é¡ºå¾·-ç¢§æ¡å­æ»é¨', 'num': 0, 'rate': 0}, {'zone_id': 'QW', 'zone_name': 'C-A1', 'num': 0, 'rate': 0}, {'zone_id': 'QE', 'zone_name': 'C-A2', 'num': 0, 'rate': 0}, {'zone_id': 'QT', 'zone_name': 'C-A3', 'num': 0, 'rate': 0}, {'zone_id': 'QY', 'zone_name': 'C-A4', 'num': 0, 'rate': 0}, {'zone_id': 'QU', 'zone_name': 'C-A5', 'num': 0, 'rate': 0}, {'zone_id': 'QI', 'zone_name': 'C-A6', 'num': 0, 'rate': 0}, {'zone_id': 'QO', 'zone_name': 'C-B1', 'num': 0, 'rate': 0}, {'zone_id': 'QP', 'zone_name': 'C-B2', 'num': 0, 'rate': 0}, {'zone_id': 'AW', 'zone_name': 'C-B3', 'num': 0, 'rate': 0}, {'zone_id': 'WE', 'zone_name': 'C-B5', 'num': 0, 'rate': 0}, {'zone_id': 'WR', 'zone_name': 'C-B6', 'num': 0, 'rate': 0}, {'zone_id': 'WT', 'zone_name': 'C-B7', 'num': 0, 'rate': 0}, {'zone_id': 'WY', 'zone_name': 'C-B11', 'num': 0, 'rate': 0}, {'zone_id': 'WU', 'zone_name': 'C-B10', 'num': 0, 'rate': 0}, {'zone_id': 'WP', 'zone_name': 'C-B4', 'num': 0, 'rate': 0}, {'zone_id': 'ER', 'zone_name': 'N-A1', 'num': 0, 'rate': 0}, {'zone_id': 'ET', 'zone_name': 'N-A4', 'num': 0, 'rate': 0}, {'zone_id': 'EY', 'zone_name': 'N-A5', 'num': 0, 'rate': 0}, {'zone_id': 'EU', 'zone_name': 'N-A6', 'num': 0, 'rate': 0}, {'zone_id': 'EI', 'zone_name': 'N-A7', 'num': 0, 'rate': 0}, {'zone_id': 'EL', 'zone_name': 'N-A8', 'num': 0, 'rate': 0}, {'zone_id': 'ED', 'zone_name': 'N-A9', 'num': 0, 'rate': 0}, {'zone_id': 'QSD', 'zone_name': 'N-A10', 'num': 0, 'rate': 0}, {'zone_id': 'WEFFG', 'zone_name': 'N-A11', 'num': 0, 'rate': 0}, {'zone_id': 'RT', 'zone_name': 'N-B1', 'num': 0, 'rate': 0}, {'zone_id': 'RU', 'zone_name': 'N-B2', 'num': 0, 'rate': 0}, {'zone_id': 'TY', 'zone_name': 'N-B3', 'num': 0, 'rate': 0}, {'zone_id': 'DE', 'zone_name': 'N-B4', 'num': 0, 'rate': 0}, {'zone_id': 'GTY', 'zone_name': 'N-B5', 'num': 0, 'rate': 0}, {'zone_id': 'HY', 'zone_name': 'N-B6', 'num': 0, 'rate': 0}, {'zone_id': 'HYU', 'zone_name': 'N-B7', 'num': 0, 'rate': 0}, {'zone_id': 'FHT', 'zone_name': 'N-B8', 'num': 0, 'rate': 0}, {'zone_id': 'SDGF', 'zone_name': 'N-B9', 'num': 0, 'rate': 0}, {'zone_id': 'WJ', 'zone_name': 'C-C9', 'num': 0, 'rate': 0}, {'zone_id': 'EF', 'zone_name': 'D_A_A5_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'EG', 'zone_name': 'D_A_A5_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'EJ', 'zone_name': 'D_A_A5_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'EK', 'zone_name': 'D_A_A5_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'EZ', 'zone_name': 'D_A_A5_17_W', 'num': 0, 'rate': 0}, {'zone_id': 'EC', 'zone_name': 'D_A_A5_18_W', 'num': 0, 'rate': 0}, {'zone_id': 'EV', 'zone_name': 'D_A_A4_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'EN', 'zone_name': 'D_A_A4_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'EM', 'zone_name': 'D_A_A4_9_W', 'num': 0, 'rate': 0}, {'zone_id': 'RA', 'zone_name': 'D_A_A5_15_W', 'num': 0, 'rate': 0}, {'zone_id': 'RG', 'zone_name': 'D_A_A5_16_W', 'num': 0, 'rate': 0}, {'zone_id': 'RGH', 'zone_name': 'D_A_A5_19_W', 'num': 0, 'rate': 0}, {'zone_id': 'DFAS', 'zone_name': 'D_A_A4_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'VD', 'zone_name': 'C-C1', 'num': 0, 'rate': 0}, {'zone_id': 'VF', 'zone_name': 'C-A9', 'num': 0, 'rate': 0}, {'zone_id': 'VG', 'zone_name': 'C-A10', 'num': 0, 'rate': 0}, {'zone_id': 'VH', 'zone_name': 'C-A11', 'num': 0, 'rate': 0}, {'zone_id': 'VJ', 'zone_name': 'C_A_A1_9_W', 'num': 0, 'rate': 0}, {'zone_id': 'VQ', 'zone_name': 'C_A_A1_10_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZQ', 'zone_name': 'C_A_A1_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZE', 'zone_name': 'C_A_A1_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZR', 'zone_name': 'C_A_A1_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZY', 'zone_name': 'C_A_A1_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZU', 'zone_name': 'C_A_A1_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'QWEDF', 'zone_name': 'C_A_A1_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'SQ', 'zone_name': 'C_A_A1_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'DSGR', 'zone_name': 'C_A_A1_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'CQ', 'zone_name': 'C_A_A1_17_W', 'num': 0, 'rate': 0}, {'zone_id': 'LT', 'zone_name': 'C_A_A1_15_W', 'num': 0, 'rate': 0}, {'zone_id': 'LR', 'zone_name': 'C_A_A1_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'LW', 'zone_name': 'C_A_A1_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'LL', 'zone_name': 'C_A_A1_16_W', 'num': 0, 'rate': 0}, {'zone_id': 'LH', 'zone_name': 'C_A_A5_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'LF', 'zone_name': 'C_A_A5_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'LD', 'zone_name': 'C_A_A5_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'LS', 'zone_name': 'C_A_A1_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'ML', 'zone_name': 'N_A_A2_1_N', 'num': 0, 'rate': 0}, {'zone_id': 'MK', 'zone_name': 'N_A_A2_2_N', 'num': 0, 'rate': 0}, {'zone_id': 'MJ', 'zone_name': 'N_A_A2_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'MH', 'zone_name': 'N_A_A2_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'MG', 'zone_name': 'N_A_A2_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'KJHYT', 'zone_name': 'N_A_A2_6_N', 'num': 0, 'rate': 0}, {'zone_id': 'MD', 'zone_name': 'N_A_A2_7_N', 'num': 0, 'rate': 0}, {'zone_id': 'MS', 'zone_name': 'N_A_A2_8_N', 'num': 0, 'rate': 0}, {'zone_id': 'MP', 'zone_name': 'N_A_A2_9_W', 'num': 0, 'rate': 0}, {'zone_id': 'MO', 'zone_name': 'N_A_A2_10_W', 'num': 0, 'rate': 0}, {'zone_id': 'MI', 'zone_name': 'N_A_A2_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'MU', 'zone_name': 'N_A_A2_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'MY', 'zone_name': 'N_A_A2_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'MT', 'zone_name': 'N_A_A2_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'MW', 'zone_name': 'N-A12', 'num': 0, 'rate': 0}, {'zone_id': 'MQ', 'zone_name': 'N-A13', 'num': 0, 'rate': 0}, {'zone_id': 'HYUJ', 'zone_name': 'N-B11', 'num': 0, 'rate': 0}, {'zone_id': 'F', 'zone_name': 'N-B12', 'num': 0, 'rate': 0}, {'zone_id': 'G', 'zone_name': 'N_A_A4_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'H', 'zone_name': 'N_A_A4_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'J', 'zone_name': 'N_A_A4_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'L', 'zone_name': 'N_A_A4_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'Z', 'zone_name': 'N_A_A4_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'C', 'zone_name': 'N_A_A4_10_W', 'num': 0, 'rate': 0}, {'zone_id': 'V', 'zone_name': 'N_A_A4_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'N', 'zone_name': 'N_A_A4_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'MJH', 'zone_name': 'N_A_A4_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'Q2', 'zone_name': 'N_A_A22_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'W3', 'zone_name': 'N_A_A22_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'E4', 'zone_name': 'N_A_A22_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'R5', 'zone_name': 'N_A_A22_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'GFT', 'zone_name': 'N_A_A22_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'T54', 'zone_name': 'N_A_A22_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'R453', 'zone_name': 'N_A_A22_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'A1', 'zone_name': 'N_A_A22_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'KDJGSK', 'zone_name': 'C-B8', 'num': 0, 'rate': 0}, {'zone_id': 'SDGE', 'zone_name': 'N-A2', 'num': 0, 'rate': 0}, {'zone_id': 'ADJGK', 'zone_name': 'N-B10', 'num': 0, 'rate': 0}, {'zone_id': '121sc', 'zone_name': 'C_A_A5_66_W', 'num': 0, 'rate': 0}, {'zone_id': 'SDF77', 'zone_name': 'C_A_A5_77_W', 'num': 0, 'rate': 0}, {'zone_id': 'cxs771', 'zone_name': 'C_A_A5_771_W', 'num': 0, 'rate': 0}, {'zone_id': 'ASD88', 'zone_name': 'C_A_A5_88_W', 'num': 0, 'rate': 0}, {'zone_id': 'FDHJ4', 'zone_name': 'C-B9', 'num': 0, 'rate': 0}, {'zone_id': '1JHKFD', 'zone_name': 'C-B12', 'num': 0, 'rate': 0}, {'zone_id': 'DGDS', 'zone_name': 'ä½ç½ä»_WX', 'num': 0, 'rate': 0}, {'zone_id': 'GDSAFG', 'zone_name': 'å¤å¤§ä»_WX', 'num': 0, 'rate': 0}, {'zone_id': 'GRHE', 'zone_name': 'C_A_A5_7_WX', 'num': 0, 'rate': 0}, {'zone_id': 'JEHGJTR', 'zone_name': 'N_A_A3_4_WX', 'num': 0, 'rate': 0}, {'zone_id': 'QWE123', 'zone_name': 'N_A_A22_3_WX', 'num': 0, 'rate': 0}, {'zone_id': 'WER321345', 'zone_name': 'N_A_A2_4_WX', 'num': 0, 'rate': 0}, {'zone_id': 'sdfsfwx', 'zone_name': 'D_A_A5_12_WX', 'num': 0, 'rate': 0}, {'zone_id': 'sdfsdfWX', 'zone_name': 'D_A_A5_5_WX', 'num': 0, 'rate': 0}, {'zone_id': 'CAA16WX', 'zone_name': 'C_A_A1_66_WX', 'num': 0, 'rate': 0}, {'zone_id': 'CAA12WX', 'zone_name': 'C_A_A1_2_WX', 'num': 0, 'rate': 0}, {'zone_id': 'VHFYFL', 'zone_name': 'N-A14', 'num': 0, 'rate': 0}, {'zone_id': 'ADFS', 'zone_name': 'N-A15', 'num': 0, 'rate': 0}, {'zone_id': 'SDD', 'zone_name': 'N-A16', 'num': 0, 'rate': 0}, {'zone_id': 'CAA1WW', 'zone_name': 'C_A_A1_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'AFEWGWEER', 'zone_name': 'C-C7', 'num': 0, 'rate': 0}, {'zone_id': 'ASDASYNM', 'zone_name': 'C-C8', 'num': 0, 'rate': 0}, {'zone_id': 'GDE', 'zone_name': 'C-A8', 'num': 0, 'rate': 0}, {'zone_id': 'KJUYG', 'zone_name': 'C-C3', 'num': 0, 'rate': 0}, {'zone_id': 'DGR4G', 'zone_name': 'C-C4', 'num': 0, 'rate': 0}, {'zone_id': 'DJNFDS', 'zone_name': 'C-C11', 'num': 0, 'rate': 0}, {'zone_id': 'ASDF', 'zone_name': 'N-A3', 'num': 0, 'rate': 0}, {'zone_id': 'LJEJG', 'zone_name': 'C-C10', 'num': 0, 'rate': 0}, {'zone_id': 'GEGRG', 'zone_name': 'C-C12', 'num': 0, 'rate': 0}, {'zone_id': 'GDS', 'zone_name': 'C-C2', 'num': 0, 'rate': 0}], 'code': '200', 'msg': 'Success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.7' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_recoveryTrend_1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.7')" >
+        通过</a>
+
+    <div id='div_pt1.7' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.7').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.7: {'data': {'list': [{'date': '2017-12-08', 'week_increase_proportion': 0, 'num': 0, 'increase_proportion': 0}, {'date': '2017-12-09', 'week_increase_proportion': 0, 'num': 0, 'increase_proportion': 0}], 'peek': 0}, 'code': '200', 'msg': 'Success'}
+{'data': {'list': [{'date': '2017-12-08', 'week_increase_proportion': 0, 'num': 0, 'increase_proportion': 0}, {'date': '2017-12-09', 'week_increase_proportion': 0, 'num': 0, 'increase_proportion': 0}], 'peek': 0}, 'code': '200', 'msg': 'Success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.8' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_slienceNum1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.8')" >
+        通过</a>
+
+    <div id='div_pt1.8' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.8').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.8: {'data': [{'zone_id': 'MI', 'zone_name': 'N_A_A2_11_W', 'num': 9, 'rate': '0.00'}], 'code': '200', 'msg': 'Success'}
+{'data': [{'zone_id': 'GTY', 'zone_name': 'N-B5', 'num': 178, 'rate': '0.24'}, {'zone_id': 'RT', 'zone_name': 'N-B1', 'num': 148, 'rate': '0.25'}, {'zone_id': 'SDGE', 'zone_name': 'N-A2', 'num': 84, 'rate': '0.11'}, {'zone_id': 'HY', 'zone_name': 'N-B6', 'num': 81, 'rate': '0.36'}, {'zone_id': 'QY', 'zone_name': 'C-A4', 'num': 78, 'rate': '0.18'}, {'zone_id': 'HYU', 'zone_name': 'N-B7', 'num': 77, 'rate': '0.30'}, {'zone_id': 'ER', 'zone_name': 'N-A1', 'num': 75, 'rate': '0.07'}, {'zone_id': 'DE', 'zone_name': 'N-B4', 'num': 72, 'rate': '0.61'}, {'zone_id': 'QP', 'zone_name': 'C-B2', 'num': 64, 'rate': '0.13'}, {'zone_id': 'WER321345', 'zone_name': 'N_A_A2_4_WX', 'num': 62, 'rate': '0.00'}, {'zone_id': 'FDHJ4', 'zone_name': 'C-B9', 'num': 55, 'rate': '0.13'}, {'zone_id': 'TY', 'zone_name': 'N-B3', 'num': 54, 'rate': '0.63'}, {'zone_id': 'QO', 'zone_name': 'C-B1', 'num': 53, 'rate': '0.09'}, {'zone_id': 'EI', 'zone_name': 'N-A7', 'num': 49, 'rate': '0.18'}, {'zone_id': 'QI', 'zone_name': 'C-A6', 'num': 48, 'rate': '0.44'}, {'zone_id': 'SDGF', 'zone_name': 'N-B9', 'num': 47, 'rate': '0.53'}, {'zone_id': 'ADJGK', 'zone_name': 'N-B10', 'num': 43, 'rate': '0.02'}, {'zone_id': 'QU', 'zone_name': 'C-A5', 'num': 42, 'rate': '0.02'}, {'zone_id': 'WEFFG', 'zone_name': 'N-A11', 'num': 42, 'rate': '0.12'}, {'zone_id': 'QE', 'zone_name': 'C-A2', 'num': 41, 'rate': '0.51'}, {'zone_id': 'WE', 'zone_name': 'C-B5', 'num': 41, 'rate': '0.05'}, {'zone_id': 'F', 'zone_name': 'N-B12', 'num': 40, 'rate': '0.28'}, {'zone_id': 'WR', 'zone_name': 'C-B6', 'num': 39, 'rate': '0.38'}, {'zone_id': 'ED', 'zone_name': 'N-A9', 'num': 34, 'rate': '0.03'}, {'zone_id': 'QT', 'zone_name': 'C-A3', 'num': 32, 'rate': '0.38'}, {'zone_id': 'HYUJ', 'zone_name': 'N-B11', 'num': 32, 'rate': '0.31'}, {'zone_id': 'WU', 'zone_name': 'C-B10', 'num': 31, 'rate': '0.35'}, {'zone_id': '1JHKFD', 'zone_name': 'C-B12', 'num': 30, 'rate': '0.03'}, {'zone_id': 'RU', 'zone_name': 'N-B2', 'num': 29, 'rate': '0.55'}, {'zone_id': 'RGH', 'zone_name': 'D_A_A5_19_W', 'num': 24, 'rate': '0.00'}, {'zone_id': 'FHT', 'zone_name': 'N-B8', 'num': 23, 'rate': '0.00'}, {'zone_id': 'CAA16WX', 'zone_name': 'C_A_A1_66_WX', 'num': 23, 'rate': '0.00'}, {'zone_id': 'EZ', 'zone_name': 'D_A_A5_17_W', 'num': 22, 'rate': '0.05'}, {'zone_id': 'KJUYG', 'zone_name': 'C-C3', 'num': 22, 'rate': '0.59'}, {'zone_id': 'DGR4G', 'zone_name': 'C-C4', 'num': 19, 'rate': '0.11'}, {'zone_id': 'sdfsfwx', 'zone_name': 'D_A_A5_12_WX', 'num': 17, 'rate': '0.00'}, {'zone_id': 'wfgy', 'zone_name': 'C-C5', 'num': 16, 'rate': '0.50'}, {'zone_id': 'GDE', 'zone_name': 'C-A8', 'num': 16, 'rate': '0.00'}, {'zone_id': 'WP', 'zone_name': 'C-B4', 'num': 15, 'rate': '0.27'}, {'zone_id': 'ASDASYNM', 'zone_name': 'C-C8', 'num': 15, 'rate': '0.13'}, {'zone_id': 'ASDF', 'zone_name': 'N-A3', 'num': 15, 'rate': '0.13'}, {'zone_id': 'QSD', 'zone_name': 'N-A10', 'num': 14, 'rate': '0.36'}, {'zone_id': 'T1', 'zone_name': 'N_A_A4_5_W', 'num': 13, 'rate': '0.08'}, {'zone_id': 'DGDS', 'zone_name': 'ä½ç½ä»_WX', 'num': 13, 'rate': '0.00'}, {'zone_id': 'WY', 'zone_name': 'C-B11', 'num': 12, 'rate': '0.00'}, {'zone_id': 'swymj', 'zone_name': 'C-B13', 'num': 11, 'rate': '0.09'}, {'zone_id': 'EU', 'zone_name': 'N-A6', 'num': 10, 'rate': '0.00'}, {'zone_id': 'VF', 'zone_name': 'C-A9', 'num': 10, 'rate': '0.20'}, {'zone_id': 'VJ', 'zone_name': 'C_A_A1_9_W', 'num': 9, 'rate': '0.22'}, {'zone_id': 'MI', 'zone_name': 'N_A_A2_11_W', 'num': 9, 'rate': '0.00'}, {'zone_id': 'EC', 'zone_name': 'D_A_A5_18_W', 'num': 8, 'rate': '0.13'}, {'zone_id': 'RG', 'zone_name': 'D_A_A5_16_W', 'num': 8, 'rate': '0.00'}, {'zone_id': 'ZQ', 'zone_name': 'C_A_A1_1_W', 'num': 8, 'rate': '0.00'}, {'zone_id': 'ZY', 'zone_name': 'C_A_A1_5_W', 'num': 8, 'rate': '0.00'}, {'zone_id': 'MH', 'zone_name': 'N_A_A2_4_W', 'num': 8, 'rate': '0.00'}, {'zone_id': 'MW', 'zone_name': 'N-A12', 'num': 8, 'rate': '0.00'}, {'zone_id': 'CAA12WX', 'zone_name': 'C_A_A1_2_WX', 'num': 8, 'rate': '0.00'}, {'zone_id': 'EM', 'zone_name': 'D_A_A4_9_W', 'num': 6, 'rate': '0.00'}, {'zone_id': 'ZE', 'zone_name': 'C_A_A1_3_W', 'num': 6, 'rate': '0.00'}, {'zone_id': 'LH', 'zone_name': 'C_A_A5_8_W', 'num': 6, 'rate': '0.17'}, {'zone_id': 'AFEWGWEER', 'zone_name': 'C-C7', 'num': 5, 'rate': '0.80'}, {'zone_id': 'zcdjl', 'zone_name': 'C-C6', 'num': 4, 'rate': '0.50'}, {'zone_id': 'cxs771', 'zone_name': 'C_A_A5_771_W', 'num': 4, 'rate': '0.00'}, {'zone_id': 'GRHE', 'zone_name': 'C_A_A5_7_WX', 'num': 4, 'rate': '0.00'}, {'zone_id': 'QW', 'zone_name': 'C-A1', 'num': 3, 'rate': '0.00'}, {'zone_id': 'MJ', 'zone_name': 'N_A_A2_3_W', 'num': 3, 'rate': '0.00'}, {'zone_id': 'MT', 'zone_name': 'N_A_A2_14_W', 'num': 3, 'rate': '0.00'}, {'zone_id': 'ASD88', 'zone_name': 'C_A_A5_88_W', 'num': 3, 'rate': '0.33'}, {'zone_id': 'LT', 'zone_name': 'C_A_A1_15_W', 'num': 2, 'rate': '0.00'}, {'zone_id': 'MO', 'zone_name': 'N_A_A2_10_W', 'num': 2, 'rate': '0.00'}, {'zone_id': 'VHFYFL', 'zone_name': 'N-A14', 'num': 2, 'rate': '0.00'}, {'zone_id': 'fky', 'zone_name': 'C-A7', 'num': 1, 'rate': '0.00'}, {'zone_id': 'ET', 'zone_name': 'N-A4', 'num': 1, 'rate': '0.00'}, {'zone_id': 'EL', 'zone_name': 'N-A8', 'num': 1, 'rate': '0.00'}, {'zone_id': 'EG', 'zone_name': 'D_A_A5_12_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'EV', 'zone_name': 'D_A_A4_7_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'DSGR', 'zone_name': 'C_A_A1_2_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'CQ', 'zone_name': 'C_A_A1_17_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'LD', 'zone_name': 'C_A_A5_6_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'MS', 'zone_name': 'N_A_A2_8_N', 'num': 1, 'rate': '0.00'}, {'zone_id': '121sc', 'zone_name': 'C_A_A5_66_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'SDF77', 'zone_name': 'C_A_A5_77_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'GDSAFG', 'zone_name': 'å¤å¤§ä»_WX', 'num': 1, 'rate': '0.00'}, {'zone_id': 'DJNFDS', 'zone_name': 'C-C11', 'num': 1, 'rate': '0.00'}, {'zone_id': 'shunde_biguiyuan', 'zone_name': 'é¡ºå¾·-ç¢§æ¡å­æ»é¨', 'num': 0, 'rate': 0}, {'zone_id': 'AW', 'zone_name': 'C-B3', 'num': 0, 'rate': 0}, {'zone_id': 'WT', 'zone_name': 'C-B7', 'num': 0, 'rate': 0}, {'zone_id': 'EY', 'zone_name': 'N-A5', 'num': 0, 'rate': 0}, {'zone_id': 'WJ', 'zone_name': 'C-C9', 'num': 0, 'rate': 0}, {'zone_id': 'EF', 'zone_name': 'D_A_A5_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'EJ', 'zone_name': 'D_A_A5_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'EK', 'zone_name': 'D_A_A5_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'EN', 'zone_name': 'D_A_A4_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'RA', 'zone_name': 'D_A_A5_15_W', 'num': 0, 'rate': 0}, {'zone_id': 'DFAS', 'zone_name': 'D_A_A4_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'VD', 'zone_name': 'C-C1', 'num': 0, 'rate': 0}, {'zone_id': 'VG', 'zone_name': 'C-A10', 'num': 0, 'rate': 0}, {'zone_id': 'VH', 'zone_name': 'C-A11', 'num': 0, 'rate': 0}, {'zone_id': 'VQ', 'zone_name': 'C_A_A1_10_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZR', 'zone_name': 'C_A_A1_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZU', 'zone_name': 'C_A_A1_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'QWEDF', 'zone_name': 'C_A_A1_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'SQ', 'zone_name': 'C_A_A1_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'LR', 'zone_name': 'C_A_A1_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'LW', 'zone_name': 'C_A_A1_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'LL', 'zone_name': 'C_A_A1_16_W', 'num': 0, 'rate': 0}, {'zone_id': 'LF', 'zone_name': 'C_A_A5_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'LS', 'zone_name': 'C_A_A1_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'ML', 'zone_name': 'N_A_A2_1_N', 'num': 0, 'rate': 0}, {'zone_id': 'MK', 'zone_name': 'N_A_A2_2_N', 'num': 0, 'rate': 0}, {'zone_id': 'MG', 'zone_name': 'N_A_A2_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'KJHYT', 'zone_name': 'N_A_A2_6_N', 'num': 0, 'rate': 0}, {'zone_id': 'MD', 'zone_name': 'N_A_A2_7_N', 'num': 0, 'rate': 0}, {'zone_id': 'MP', 'zone_name': 'N_A_A2_9_W', 'num': 0, 'rate': 0}, {'zone_id': 'MU', 'zone_name': 'N_A_A2_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'MY', 'zone_name': 'N_A_A2_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'MQ', 'zone_name': 'N-A13', 'num': 0, 'rate': 0}, {'zone_id': 'G', 'zone_name': 'N_A_A4_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'H', 'zone_name': 'N_A_A4_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'J', 'zone_name': 'N_A_A4_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'L', 'zone_name': 'N_A_A4_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'Z', 'zone_name': 'N_A_A4_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'C', 'zone_name': 'N_A_A4_10_W', 'num': 0, 'rate': 0}, {'zone_id': 'V', 'zone_name': 'N_A_A4_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'N', 'zone_name': 'N_A_A4_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'MJH', 'zone_name': 'N_A_A4_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'Q2', 'zone_name': 'N_A_A22_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'W3', 'zone_name': 'N_A_A22_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'E4', 'zone_name': 'N_A_A22_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'R5', 'zone_name': 'N_A_A22_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'GFT', 'zone_name': 'N_A_A22_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'T54', 'zone_name': 'N_A_A22_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'R453', 'zone_name': 'N_A_A22_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'A1', 'zone_name': 'N_A_A22_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'KDJGSK', 'zone_name': 'C-B8', 'num': 0, 'rate': 0}, {'zone_id': 'JEHGJTR', 'zone_name': 'N_A_A3_4_WX', 'num': 0, 'rate': 0}, {'zone_id': 'QWE123', 'zone_name': 'N_A_A22_3_WX', 'num': 0, 'rate': 0}, {'zone_id': 'sdfsdfWX', 'zone_name': 'D_A_A5_5_WX', 'num': 0, 'rate': 0}, {'zone_id': 'ADFS', 'zone_name': 'N-A15', 'num': 0, 'rate': 0}, {'zone_id': 'SDD', 'zone_name': 'N-A16', 'num': 0, 'rate': 0}, {'zone_id': 'CAA1WW', 'zone_name': 'C_A_A1_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'LJEJG', 'zone_name': 'C-C10', 'num': 0, 'rate': 0}, {'zone_id': 'GEGRG', 'zone_name': 'C-C12', 'num': 0, 'rate': 0}, {'zone_id': 'GDS', 'zone_name': 'C-C2', 'num': 0, 'rate': 0}], 'code': '200', 'msg': 'Success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.9' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_slienceTrend_1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.9')" >
+        通过</a>
+
+    <div id='div_pt1.9' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.9').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.9: {'data': {'list': [{'date': '2017-12-08', 'week_increase_proportion': 0, 'num': 0, 'rate': 0, 'increase_proportion': 0}, {'date': '2017-12-09', 'week_increase_proportion': 0, 'num': 0, 'rate': 0, 'increase_proportion': 0}], 'peek': 1}, 'code': '200', 'msg': 'Success'}
+{'data': {'list': [{'date': '2017-12-08', 'week_increase_proportion': '-0.21', 'num': 2063, 'rate': '0.67', 'increase_proportion': '-0.16'}, {'date': '2017-12-09', 'week_increase_proportion': '-0.00', 'num': 2693, 'rate': '0.67', 'increase_proportion': '0.31'}], 'peek': 6111}, 'code': '200', 'msg': 'Success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.10' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_troubleNum1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.10')" >
+        通过</a>
+
+    <div id='div_pt1.10' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.10').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.10: {'data': [{'zone_id': 'MI', 'zone_name': 'N_A_A2_11_W', 'num': 15, 'rate': '0.00'}], 'code': '200', 'msg': 'Success'}
+{'data': [{'zone_id': 'ER', 'zone_name': 'N-A1', 'num': 28, 'rate': '0.36'}, {'zone_id': 'EI', 'zone_name': 'N-A7', 'num': 27, 'rate': '0.74'}, {'zone_id': 'WY', 'zone_name': 'C-B11', 'num': 21, 'rate': '0.67'}, {'zone_id': 'QI', 'zone_name': 'C-A6', 'num': 20, 'rate': '0.00'}, {'zone_id': 'TY', 'zone_name': 'N-B3', 'num': 16, 'rate': '0.00'}, {'zone_id': 'ED', 'zone_name': 'N-A9', 'num': 15, 'rate': '0.00'}, {'zone_id': 'MI', 'zone_name': 'N_A_A2_11_W', 'num': 15, 'rate': '0.00'}, {'zone_id': 'FDHJ4', 'zone_name': 'C-B9', 'num': 15, 'rate': '0.07'}, {'zone_id': '1JHKFD', 'zone_name': 'C-B12', 'num': 15, 'rate': '0.00'}, {'zone_id': 'QP', 'zone_name': 'C-B2', 'num': 14, 'rate': '0.00'}, {'zone_id': 'WP', 'zone_name': 'C-B4', 'num': 14, 'rate': '0.50'}, {'zone_id': 'WEFFG', 'zone_name': 'N-A11', 'num': 14, 'rate': '0.00'}, {'zone_id': 'GTY', 'zone_name': 'N-B5', 'num': 14, 'rate': '0.07'}, {'zone_id': 'QT', 'zone_name': 'C-A3', 'num': 12, 'rate': '0.00'}, {'zone_id': 'T1', 'zone_name': 'N_A_A4_5_W', 'num': 11, 'rate': '0.00'}, {'zone_id': 'DE', 'zone_name': 'N-B4', 'num': 11, 'rate': '0.00'}, {'zone_id': 'VJ', 'zone_name': 'C_A_A1_9_W', 'num': 11, 'rate': '0.00'}, {'zone_id': 'EZ', 'zone_name': 'D_A_A5_17_W', 'num': 10, 'rate': '0.00'}, {'zone_id': 'LH', 'zone_name': 'C_A_A5_8_W', 'num': 10, 'rate': '0.00'}, {'zone_id': 'QY', 'zone_name': 'C-A4', 'num': 8, 'rate': '0.00'}, {'zone_id': 'WE', 'zone_name': 'C-B5', 'num': 8, 'rate': '0.00'}, {'zone_id': 'WR', 'zone_name': 'C-B6', 'num': 8, 'rate': '0.75'}, {'zone_id': 'EC', 'zone_name': 'D_A_A5_18_W', 'num': 8, 'rate': '0.00'}, {'zone_id': 'MW', 'zone_name': 'N-A12', 'num': 8, 'rate': '0.00'}, {'zone_id': 'SDGE', 'zone_name': 'N-A2', 'num': 8, 'rate': '0.00'}, {'zone_id': 'KJUYG', 'zone_name': 'C-C3', 'num': 8, 'rate': '0.00'}, {'zone_id': 'cxs771', 'zone_name': 'C_A_A5_771_W', 'num': 7, 'rate': '0.00'}, {'zone_id': 'wfgy', 'zone_name': 'C-C5', 'num': 6, 'rate': '0.00'}, {'zone_id': 'QO', 'zone_name': 'C-B1', 'num': 6, 'rate': '0.33'}, {'zone_id': 'HYU', 'zone_name': 'N-B7', 'num': 6, 'rate': '0.00'}, {'zone_id': 'CAA16WX', 'zone_name': 'C_A_A1_66_WX', 'num': 6, 'rate': '0.00'}, {'zone_id': 'GDE', 'zone_name': 'C-A8', 'num': 6, 'rate': '0.00'}, {'zone_id': 'RT', 'zone_name': 'N-B1', 'num': 5, 'rate': '0.00'}, {'zone_id': 'ZQ', 'zone_name': 'C_A_A1_1_W', 'num': 5, 'rate': '0.00'}, {'zone_id': 'DGR4G', 'zone_name': 'C-C4', 'num': 5, 'rate': '0.00'}, {'zone_id': 'QU', 'zone_name': 'C-A5', 'num': 4, 'rate': '0.00'}, {'zone_id': 'QSD', 'zone_name': 'N-A10', 'num': 4, 'rate': '0.00'}, {'zone_id': 'RU', 'zone_name': 'N-B2', 'num': 4, 'rate': '0.00'}, {'zone_id': 'HY', 'zone_name': 'N-B6', 'num': 4, 'rate': '0.25'}, {'zone_id': 'RGH', 'zone_name': 'D_A_A5_19_W', 'num': 4, 'rate': '0.00'}, {'zone_id': 'QWEDF', 'zone_name': 'C_A_A1_7_W', 'num': 4, 'rate': '0.00'}, {'zone_id': 'LT', 'zone_name': 'C_A_A1_15_W', 'num': 4, 'rate': '0.00'}, {'zone_id': 'HYUJ', 'zone_name': 'N-B11', 'num': 4, 'rate': '0.00'}, {'zone_id': 'swymj', 'zone_name': 'C-B13', 'num': 3, 'rate': '0.00'}, {'zone_id': 'EU', 'zone_name': 'N-A6', 'num': 3, 'rate': '0.00'}, {'zone_id': 'WER321345', 'zone_name': 'N_A_A2_4_WX', 'num': 3, 'rate': '0.00'}, {'zone_id': 'QE', 'zone_name': 'C-A2', 'num': 2, 'rate': '0.00'}, {'zone_id': 'EY', 'zone_name': 'N-A5', 'num': 2, 'rate': '0.00'}, {'zone_id': 'SDGF', 'zone_name': 'N-B9', 'num': 2, 'rate': '0.00'}, {'zone_id': 'VQ', 'zone_name': 'C_A_A1_10_W', 'num': 2, 'rate': '0.00'}, {'zone_id': 'F', 'zone_name': 'N-B12', 'num': 2, 'rate': '0.00'}, {'zone_id': 'GRHE', 'zone_name': 'C_A_A5_7_WX', 'num': 2, 'rate': '0.50'}, {'zone_id': 'fky', 'zone_name': 'C-A7', 'num': 1, 'rate': '0.00'}, {'zone_id': 'QW', 'zone_name': 'C-A1', 'num': 1, 'rate': '0.00'}, {'zone_id': 'ET', 'zone_name': 'N-A4', 'num': 1, 'rate': '0.00'}, {'zone_id': 'CQ', 'zone_name': 'C_A_A1_17_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'LW', 'zone_name': 'C_A_A1_14_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'LD', 'zone_name': 'C_A_A5_6_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'MO', 'zone_name': 'N_A_A2_10_W', 'num': 1, 'rate': '0.00'}, {'zone_id': '121sc', 'zone_name': 'C_A_A5_66_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'SDF77', 'zone_name': 'C_A_A5_77_W', 'num': 1, 'rate': '0.00'}, {'zone_id': 'DGDS', 'zone_name': 'ä½ç½ä»_WX', 'num': 1, 'rate': '0.00'}, {'zone_id': 'GDSAFG', 'zone_name': 'å¤å¤§ä»_WX', 'num': 1, 'rate': '0.00'}, {'zone_id': 'CAA12WX', 'zone_name': 'C_A_A1_2_WX', 'num': 1, 'rate': '0.00'}, {'zone_id': 'DJNFDS', 'zone_name': 'C-C11', 'num': 1, 'rate': '0.00'}, {'zone_id': 'zcdjl', 'zone_name': 'C-C6', 'num': 0, 'rate': 0}, {'zone_id': 'shunde_biguiyuan', 'zone_name': 'é¡ºå¾·-ç¢§æ¡å­æ»é¨', 'num': 0, 'rate': 0}, {'zone_id': 'AW', 'zone_name': 'C-B3', 'num': 0, 'rate': 0}, {'zone_id': 'WT', 'zone_name': 'C-B7', 'num': 0, 'rate': 0}, {'zone_id': 'WU', 'zone_name': 'C-B10', 'num': 0, 'rate': 0}, {'zone_id': 'EL', 'zone_name': 'N-A8', 'num': 0, 'rate': 0}, {'zone_id': 'FHT', 'zone_name': 'N-B8', 'num': 0, 'rate': 0}, {'zone_id': 'WJ', 'zone_name': 'C-C9', 'num': 0, 'rate': 0}, {'zone_id': 'EF', 'zone_name': 'D_A_A5_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'EG', 'zone_name': 'D_A_A5_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'EJ', 'zone_name': 'D_A_A5_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'EK', 'zone_name': 'D_A_A5_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'EV', 'zone_name': 'D_A_A4_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'EN', 'zone_name': 'D_A_A4_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'EM', 'zone_name': 'D_A_A4_9_W', 'num': 0, 'rate': 0}, {'zone_id': 'RA', 'zone_name': 'D_A_A5_15_W', 'num': 0, 'rate': 0}, {'zone_id': 'RG', 'zone_name': 'D_A_A5_16_W', 'num': 0, 'rate': 0}, {'zone_id': 'DFAS', 'zone_name': 'D_A_A4_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'VD', 'zone_name': 'C-C1', 'num': 0, 'rate': 0}, {'zone_id': 'VF', 'zone_name': 'C-A9', 'num': 0, 'rate': 0}, {'zone_id': 'VG', 'zone_name': 'C-A10', 'num': 0, 'rate': 0}, {'zone_id': 'VH', 'zone_name': 'C-A11', 'num': 0, 'rate': 0}, {'zone_id': 'ZE', 'zone_name': 'C_A_A1_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZR', 'zone_name': 'C_A_A1_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZY', 'zone_name': 'C_A_A1_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'ZU', 'zone_name': 'C_A_A1_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'SQ', 'zone_name': 'C_A_A1_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'DSGR', 'zone_name': 'C_A_A1_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'LR', 'zone_name': 'C_A_A1_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'LL', 'zone_name': 'C_A_A1_16_W', 'num': 0, 'rate': 0}, {'zone_id': 'LF', 'zone_name': 'C_A_A5_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'LS', 'zone_name': 'C_A_A1_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'ML', 'zone_name': 'N_A_A2_1_N', 'num': 0, 'rate': 0}, {'zone_id': 'MK', 'zone_name': 'N_A_A2_2_N', 'num': 0, 'rate': 0}, {'zone_id': 'MJ', 'zone_name': 'N_A_A2_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'MH', 'zone_name': 'N_A_A2_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'MG', 'zone_name': 'N_A_A2_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'KJHYT', 'zone_name': 'N_A_A2_6_N', 'num': 0, 'rate': 0}, {'zone_id': 'MD', 'zone_name': 'N_A_A2_7_N', 'num': 0, 'rate': 0}, {'zone_id': 'MS', 'zone_name': 'N_A_A2_8_N', 'num': 0, 'rate': 0}, {'zone_id': 'MP', 'zone_name': 'N_A_A2_9_W', 'num': 0, 'rate': 0}, {'zone_id': 'MU', 'zone_name': 'N_A_A2_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'MY', 'zone_name': 'N_A_A2_13_W', 'num': 0, 'rate': 0}, {'zone_id': 'MT', 'zone_name': 'N_A_A2_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'MQ', 'zone_name': 'N-A13', 'num': 0, 'rate': 0}, {'zone_id': 'G', 'zone_name': 'N_A_A4_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'H', 'zone_name': 'N_A_A4_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'J', 'zone_name': 'N_A_A4_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'L', 'zone_name': 'N_A_A4_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'Z', 'zone_name': 'N_A_A4_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'C', 'zone_name': 'N_A_A4_10_W', 'num': 0, 'rate': 0}, {'zone_id': 'V', 'zone_name': 'N_A_A4_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'N', 'zone_name': 'N_A_A4_12_W', 'num': 0, 'rate': 0}, {'zone_id': 'MJH', 'zone_name': 'N_A_A4_14_W', 'num': 0, 'rate': 0}, {'zone_id': 'Q2', 'zone_name': 'N_A_A22_1_W', 'num': 0, 'rate': 0}, {'zone_id': 'W3', 'zone_name': 'N_A_A22_2_W', 'num': 0, 'rate': 0}, {'zone_id': 'E4', 'zone_name': 'N_A_A22_3_W', 'num': 0, 'rate': 0}, {'zone_id': 'R5', 'zone_name': 'N_A_A22_4_W', 'num': 0, 'rate': 0}, {'zone_id': 'GFT', 'zone_name': 'N_A_A22_5_W', 'num': 0, 'rate': 0}, {'zone_id': 'T54', 'zone_name': 'N_A_A22_6_W', 'num': 0, 'rate': 0}, {'zone_id': 'R453', 'zone_name': 'N_A_A22_7_W', 'num': 0, 'rate': 0}, {'zone_id': 'A1', 'zone_name': 'N_A_A22_8_W', 'num': 0, 'rate': 0}, {'zone_id': 'KDJGSK', 'zone_name': 'C-B8', 'num': 0, 'rate': 0}, {'zone_id': 'ADJGK', 'zone_name': 'N-B10', 'num': 0, 'rate': 0}, {'zone_id': 'ASD88', 'zone_name': 'C_A_A5_88_W', 'num': 0, 'rate': 0}, {'zone_id': 'JEHGJTR', 'zone_name': 'N_A_A3_4_WX', 'num': 0, 'rate': 0}, {'zone_id': 'QWE123', 'zone_name': 'N_A_A22_3_WX', 'num': 0, 'rate': 0}, {'zone_id': 'sdfsfwx', 'zone_name': 'D_A_A5_12_WX', 'num': 0, 'rate': 0}, {'zone_id': 'sdfsdfWX', 'zone_name': 'D_A_A5_5_WX', 'num': 0, 'rate': 0}, {'zone_id': 'VHFYFL', 'zone_name': 'N-A14', 'num': 0, 'rate': 0}, {'zone_id': 'ADFS', 'zone_name': 'N-A15', 'num': 0, 'rate': 0}, {'zone_id': 'SDD', 'zone_name': 'N-A16', 'num': 0, 'rate': 0}, {'zone_id': 'CAA1WW', 'zone_name': 'C_A_A1_11_W', 'num': 0, 'rate': 0}, {'zone_id': 'AFEWGWEER', 'zone_name': 'C-C7', 'num': 0, 'rate': 0}, {'zone_id': 'ASDASYNM', 'zone_name': 'C-C8', 'num': 0, 'rate': 0}, {'zone_id': 'ASDF', 'zone_name': 'N-A3', 'num': 0, 'rate': 0}, {'zone_id': 'LJEJG', 'zone_name': 'C-C10', 'num': 0, 'rate': 0}, {'zone_id': 'GEGRG', 'zone_name': 'C-C12', 'num': 0, 'rate': 0}, {'zone_id': 'GDS', 'zone_name': 'C-C2', 'num': 0, 'rate': 0}], 'code': '200', 'msg': 'Success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.11' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_troubleTrend_1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.11')" >
+        通过</a>
+
+    <div id='div_pt1.11' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.11').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.11: {'data': {'list': [{'date': '2017-12-08', 'week_increase_proportion': 0, 'num': 0, 'rate': 0, 'increase_proportion': 0}, {'date': '2017-12-09', 'week_increase_proportion': 1, 'num': 1, 'rate': '0.00', 'increase_proportion': 1}], 'peek': 5}, 'code': '200', 'msg': 'Success'}
+{'data': {'list': [{'date': '2017-12-08', 'week_increase_proportion': '0.42', 'num': 663, 'rate': '0.35', 'increase_proportion': '0.05'}, {'date': '2017-12-09', 'week_increase_proportion': '0.32', 'num': 672, 'rate': '0.34', 'increase_proportion': '0.01'}], 'peek': 1911}, 'code': '200', 'msg': 'Success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>总计</td>
+    <td>11</td>
+    <td>10</td>
+    <td>1</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</div>
+</body>
+</html>

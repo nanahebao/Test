@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Automation test report</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { white-space: pre-wrap;word-wrap: break-word; }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    /* width: 500px;*/
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 99%;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #74A474; }
+.failClass  { background-color: #FDD283; }
+.errorClass { background-color: #FF6600; }
+.passCase   { color: #6c6; }
+.failCase   { color: #FF6600; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+#div_base {
+            position:absolute;
+            top:0%;
+            left:5%;
+            right:5%;
+            width: auto;
+            height: auto;
+            margin: -15px 0 0 0;
+}
+</style>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div id="div_base">
+
+<div class='page-header'>
+<h1>Automation test report</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-12-11 10:18:41</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:00.183493</p>
+<p class='attribute'><strong>状态:</strong> 错误 14</p>
+
+</div>
+<p class='description'>This is a full regression test report of ABTest-UserGroup</p>
+
+
+
+<div class="btn-group btn-group-sm">
+<button class="btn btn-default" onclick='javascript:showCase(0)'>总结</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+</div>
+<p></p>
+<table id='result_table' class="table table-bordered">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>project.abtest.test_cases.test_group.TestGroup</td>
+    <td>14</td>
+    <td>0</td>
+    <td>0</td>
+    <td>14</td>
+    <td><a href="javascript:showClassDetail('c1',14)">详情</a></td>
+</tr>
+
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_21_1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: 
+        Description of case
+        :21 is a test which need type 2 and city(11001,19001)
+        :10000000 is a uid whic in city(11001) and end with '0'
+        :return the group id, default is 0
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1035000b8&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 155, in test_21_1
+    assert rs.status_code == 200
+AttributeError: 'NoneType' object has no attribute 'status_code'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_21_2</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        错误</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: 
+        Description of case
+        :21 is a test which need type 2 and city(11001,19001)
+        :10000001 is a uid which in city(11001) and end with '1'
+        :return the group id, default is 0
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x103500940&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 177, in test_21_2
+    assert rs.status_code == 200
+AttributeError: 'NoneType' object has no attribute 'status_code'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_21_3</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        错误</a>
+
+    <div id='div_ft1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.3: 
+        Description of case
+        :21 is a test which need type 2 and city(11001,19001)
+        :1000000A is a uid which in city(11001) and end with 'A'
+        :not fit for req of type 2
+        :return the group id is ''
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1035220b8&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 200, in test_21_3
+    assert rs.status_code == 200
+AttributeError: 'NoneType' object has no attribute 'status_code'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_22</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
+        错误</a>
+
+    <div id='div_ft1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.4: 
+        Description of case
+        :22 is a test which need type 2 and source(1,2,3)
+        :10002301 is a uid which end with 1 but source is -1,so return group ''
+        :10004302 is a uid which end with 2 ,so directly return group ''
+        :10000000 is a uid which end with 0 and source is 1,so return valid group '12435' which is analyzed by mod
+        :the number of test data group is 3
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x103522828&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 226, in test_22
+    assert rs.status_code == 200
+AttributeError: 'NoneType' object has no attribute 'status_code'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.5' class='none'>
+    <td class='errorCase'><div class='testcase'>test_23</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.5')" >
+        错误</a>
+
+    <div id='div_ft1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.5: 
+        Description of case
+        :23 is a test which need type 2 and os(1,2)
+        :10002300 is a uid which end with 0 but os is -1,so directly return group ''
+        :10004302 is a uid which end with 2 and os is 2, still return group ''
+        :1000000A is a uid which end with 1 and os is 1,so return valid group '0' which is analyzed by mod
+        :the number of test data group is 3
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x103522f60&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 257, in test_23
+    assert rs.status_code == 200
+AttributeError: 'NoneType' object has no attribute 'status_code'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.6' class='none'>
+    <td class='errorCase'><div class='testcase'>test_24</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.6')" >
+        错误</a>
+
+    <div id='div_ft1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.6: 
+        Description of case
+        :24 is a test which need type 1 and city(11001,19001)
+        :10000000 is a uid which end with 0 and city is 11001,so return group ''
+        :10000001 is a uid which end with 1 and city is 11001,so return group ''
+        :1000000A is a uid which end with A and city is 11001,so return valid group '0' which is analyzed by mod
+        :the number of test data group is 3
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10352c6d8&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 290, in test_24
+    assert rs.status_code == 200
+AttributeError: 'NoneType' object has no attribute 'status_code'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.7' class='none'>
+    <td class='errorCase'><div class='testcase'>test_25</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.7')" >
+        错误</a>
+
+    <div id='div_ft1.7' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.7').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.7: 
+        Description of case
+        :25 is a test which need type 1 and source(1,2)
+        :10004102 is a uid which end with 1 and source is 2,so return valid group '0' which is analyzed by mod
+        :10004602 is a uid which end with 1 but source is 3,so return group ''
+        :10003907 is a uid which end with 7 ,doesn't care source, directly return group ''
+        :the number of test data group is 3
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1035225c0&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 322, in test_25
+    assert rs.status_code == 200
+AttributeError: 'NoneType' object has no attribute 'status_code'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.8' class='none'>
+    <td class='errorCase'><div class='testcase'>test_26</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.8')" >
+        错误</a>
+
+    <div id='div_ft1.8' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.8').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.8: 
+        Description of case
+        :26 is a test which need type 1 and os(1,2)
+        :10004702 is a uid which end with 2 and os is -1,so return group ''
+        :10004709 is a uid which end with 9 and os is -1,so return group ''
+        :10003907 is a uid which end with 9 and os is 1,so return valid group '0' which is analyzed by mod
+        :the number of test data group is 3
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1006fb908&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 353, in test_26
+    assert rs.status_code == 200
+AttributeError: 'NoneType' object has no attribute 'status_code'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.9' class='none'>
+    <td class='errorCase'><div class='testcase'>test_id_invalid</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.9')" >
+        错误</a>
+
+    <div id='div_ft1.9' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.9').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.9: 
+        Description of case
+        :input params lost test_id,or key,or input null
+        :return para error
+        :include 3 groups of test data
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x103500a90&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 109, in test_id_invalid
+    assert rs.status_code == 200
+AttributeError: 'NoneType' object has no attribute 'status_code'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.10' class='none'>
+    <td class='errorCase'><div class='testcase'>test_input_lost</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.10')" >
+        错误</a>
+
+    <div id='div_ft1.10' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.10').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.10: 
+        Description of case
+        :input params lost test_id,or key,or input null
+        :return para error
+        :include 3 groups of test data
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10352c5f8&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 51, in test_input_lost
+    print(rs.content, rs.status_code, rs.json())
+AttributeError: 'NoneType' object has no attribute 'content'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.11' class='none'>
+    <td class='errorCase'><div class='testcase'>test_key_invalid</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.11')" >
+        错误</a>
+
+    <div id='div_ft1.11' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.11').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.11: 
+        Description of case
+        :input params lost test_id,or key,or input null
+        :return para error
+        :include 3 groups of test data
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10352ce10&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 126, in test_key_invalid
+    print(rs.content, rs.status_code, rs.json())
+AttributeError: 'NoneType' object has no attribute 'content'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.12' class='none'>
+    <td class='errorCase'><div class='testcase'>test_len_exceed</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.12')" >
+        错误</a>
+
+    <div id='div_ft1.12' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.12').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.12: 
+        Description of case
+        :input params with longer length
+        :return para error
+        :include 3 groups of test data
+        
+------ 129
+------ 128
+------ 125
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10352c8d0&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 82, in test_len_exceed
+    print(rs.content, rs.status_code, rs.json())
+AttributeError: 'NoneType' object has no attribute 'content'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.13' class='none'>
+    <td class='errorCase'><div class='testcase'>test_time_invalid</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.13')" >
+        错误</a>
+
+    <div id='div_ft1.13' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.13').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.13: 
+        Description of case
+        :the test time is not right
+        :50 is end
+        :51 not start
+        it is useful for all kinds of data
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1033c5780&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 30, in test_time_invalid
+    print(rs.content, rs.status_code, rs.json())
+AttributeError: 'NoneType' object has no attribute 'content'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.14' class='none'>
+    <td class='errorCase'><div class='testcase'>test_whitelist</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.14')" >
+        错误</a>
+
+    <div id='div_ft1.14' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.14').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.14: 
+        Description of case
+        :all keys in the white list
+        :check every test to get the group id which white list in
+        :the number of test data group is 6*6(36)
+        
+HTTPConnectionPool(host='192.168.19.221', port=8081): Max retries exceeded with url: /janus/group (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x103500f60&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))
+Traceback (most recent call last):
+  File "/Users/ln/Downloads/Test/project/abtest/test_cases/test_group.py", line 390, in test_whitelist
+    assert rs.status_code == 200
+AttributeError: 'NoneType' object has no attribute 'status_code'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>总计</td>
+    <td>14</td>
+    <td>0</td>
+    <td>0</td>
+    <td>14</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</div>
+</body>
+</html>
